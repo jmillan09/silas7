@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Servicios — Silas Seve7n Holdings Corp (SSHC). Metalmecánica ASME, Tratamiento Químico Industrial, y Componentes para Transformadores de Potencia. Soluciones integrales para el sector industrial y energético.">
+  <title>Servicios — Silas Seve7n Holdings Corp</title>
+  <link rel="icon" type="image/png" href="Images/Logo-recortado.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar solid" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Images/Logo-recortado.png" alt="Silas Seve7n Holdings Corp" class="logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback" style="display:none;">SILAS SEVE7N</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="nosotros.html" class="nav-link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="servicios.html" class="nav-link active" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="contacto.html" class="nav-link btn-red" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+        </svg>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <span>/</span>
+        <span data-i18n="svc.breadcrumb">Servicios</span>
+      </div>
+      <h1 data-i18n="svc.ph-title">Nuestros <span style="color:var(--blue);">Servicios</span></h1>
+      <p data-i18n="svc.ph-desc">Soluciones de ingeniería integrales para los sectores industrial y energético,
+        entregadas bajo los más altos estándares internacionales de calidad y seguridad.</p>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICE TABS ═══ -->
+  <section style="background:var(--navy);padding:0;">
+    <div class="container">
+      <div class="svc-tabs">
+        <a href="#metalworking" class="svc-tab" data-i18n="svc.tab.metal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          Metalmecánica
+        </a>
+        <a href="#chemical" class="svc-tab" data-i18n="svc.tab.chem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+          Tratamiento Químico
+        </a>
+        <a href="#electrical" class="svc-tab" data-i18n="svc.tab.elec">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Transformadores de Potencia
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 1: METALWORKING ═══ -->
+  <section class="service-section-block section" id="metalworking">
+    <div class="container">
+      <div class="section-header-left">
+        <div class="section-label" data-i18n="svc.metal.label">Sección 01</div>
+        <h2 class="section-title on-dark" data-i18n="svc.metal.title">Servicios de Metalmecánica</h2>
+        <p class="section-desc on-dark" data-i18n="svc.metal.sub">Fabricación, instalación y mantenimiento de precisión
+          para equipos térmicos industriales de alta exigencia.</p>
+      </div>
+
+      <div class="section-banner-img animate-fade-up"
+        style="margin:24px 0 36px;border-radius:12px;overflow:hidden;height:300px;">
+        <img src="Images/trabajadores/trabajador-de-caldera-editado.jpg" alt="Metalmecánica industrial"
+          style="width:100%;height:100%;object-fit:cover;object-position:center;">
+      </div>
+
+      <div class="feature-grid animate-fade-up">
+
+        <div class="feature-card">
+          <div class="feature-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.metal.s1-title">Instalación de Calderas</h4>
+          <p data-i18n="svc.metal.s1-desc">Instalación y puesta en marcha completa de calderas pirotubulares y
+            acuatubulares, incluyendo alineación, conexiones de tuberías, controles y sistemas de seguridad.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M3 9h18M3 15h18M9 3v18M15 3v18" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.metal.s2-title">Fabricación de Intercambiadores de Calor</h4>
+          <p data-i18n="svc.metal.s2-desc">Diseño y fabricación de intercambiadores de calor de carcasa y tubo y
+            enfriadores fin fan bajo especificaciones ASME y ASTM para aplicaciones en refinerías y procesos.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2v20M2 12h20" />
+              <circle cx="12" cy="12" r="4" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.metal.s3-title">Quemadores y Combustión</h4>
+          <p data-i18n="svc.metal.s3-desc">Suministro, instalación y puesta en marcha de sistemas de quemadores
+            industriales y gestión de la combustión para equipos térmicos de proceso.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.metal.s4-title">Instrumentación Industrial</h4>
+          <p data-i18n="svc.metal.s4-desc">Especificación, suministro e integración de instrumentación de proceso para
+            sistemas de calderas, intercambiadores de calor y control de procesos térmicos.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="8" x2="12" y2="16" />
+              <line x1="8" y1="12" x2="16" y2="12" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.metal.s5-title">Re-tubado Carcasa-Tubo / Fin Fan</h4>
+          <p data-i18n="svc.metal.s5-desc">Servicios completos de re-tubado para intercambiadores de calor de carcasa y
+            tubo y enfriadores fin fan, restaurando el rendimiento térmico completo y prolongando la vida útil.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.metal.s6-title">Re-tubado de Calderas</h4>
+          <p data-i18n="svc.metal.s6-desc">Servicios expertos de re-tubado para calderas pirotubulares y acuatubulares,
+            cumpliendo con las normas ASME para soldadura, inspección y pruebas de presión.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 2: CHEMICAL ═══ -->
+  <section class="service-section-block section alt-bg" id="chemical" style="background:var(--off-white);">
+    <div class="container">
+      <div class="section-header-left">
+        <div class="section-label" data-i18n="svc.chem.label">Sección 02</div>
+        <h2 class="section-title on-light" data-i18n="svc.chem.title">Servicios Químicos y Metalmecánicos</h2>
+        <p class="section-desc on-light" data-i18n="svc.chem.sub">Programas especializados de tratamiento químico para
+          aplicaciones upstream, downstream, de calderas y aguas de proceso.</p>
+      </div>
+
+      <div class="section-banner-img animate-fade-up"
+        style="margin:24px 0 36px;border-radius:12px;overflow:hidden;height:300px;">
+        <img src="Images/quimica/unidad-industrial.png" alt="Servicios químicos industriales"
+          style="width:100%;height:100%;object-fit:cover;object-position:center;">
+      </div>
+
+      <div class="hex-grid animate-fade-up">
+
+        <div class="hex-card">
+          <div class="hex-num">01</div>
+          <div>
+            <h4 data-i18n="svc.chem.s1-title">Suministro y Aplicación</h4>
+            <p data-i18n="svc.chem.s1-desc">Suministro y aplicación de tratamientos para corrientes de crudo y
+              refinación, incluyendo sistemas de inyección automatizados para dosificación continua y confiable en
+              operaciones de producción y refinación.</p>
+          </div>
+        </div>
+
+        <div class="hex-card">
+          <div class="hex-num">02</div>
+          <div>
+            <h4 data-i18n="svc.chem.s2-title">Upstream y Downstream</h4>
+            <p data-i18n="svc.chem.s2-desc">Demulsificantes, antiespumantes, dispersantes de asfaltenos, agentes
+              anti-incrustantes y formulaciones de limpieza de pozos para corrientes de proceso de hidrocarburos
+              upstream y downstream.</p>
+          </div>
+        </div>
+
+        <div class="hex-card">
+          <div class="hex-num">03</div>
+          <div>
+            <h4 data-i18n="svc.chem.s3-title">Tratamiento de Agua de Calderas</h4>
+            <p data-i18n="svc.chem.s3-desc">Secuestradores de oxígeno, inhibidores de corrosión, tratamientos de
+              condensado de vapor y servicios de limpieza química para mantener la eficiencia y extender la vida útil de
+              los equipos generadores de vapor.</p>
+          </div>
+        </div>
+
+        <div class="hex-card">
+          <div class="hex-num">04</div>
+          <div>
+            <h4 data-i18n="svc.chem.s4-title">Tratamiento de Aguas de Proceso</h4>
+            <p data-i18n="svc.chem.s4-desc">Biocidas, inhibidores de incrustaciones, biodispersantes, coagulantes y
+              floculantes para torres de enfriamiento, circuitos de agua de proceso y gestión de efluentes industriales.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 3: ELECTRICAL ═══ -->
+  <section class="service-section-block section" id="electrical">
+    <div class="container">
+      <div class="section-header-left">
+        <div class="section-label" data-i18n="svc.elec.label">Sección 03</div>
+        <h2 class="section-title on-dark" data-i18n="svc.elec.title">Componentes para Transformadores de Potencia y
+          Aceites Eléctricos</h2>
+        <p class="section-desc on-dark" data-i18n="svc.elec.sub">Componentes críticos y fluidos especiales para
+          operaciones y mantenimiento de transformadores de potencia.</p>
+      </div>
+
+      <div class="section-banner-img animate-fade-up"
+        style="margin:24px 0 36px;border-radius:12px;overflow:hidden;height:300px;">
+        <img src="Images/electricidad/2.jpg" alt="Transformadores y componentes eléctricos"
+          style="width:100%;height:100%;object-fit:cover;object-position:center;">
+      </div>
+
+      <div class="feature-grid animate-fade-up">
+
+        <div class="feature-card feature-card-elec">
+          <div class="feature-card-icon feature-card-icon-elec">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.elec.s1-title">Bushings (Pasatapas)</h4>
+          <p data-i18n="svc.elec.s1-desc">Bushings de alto voltaje impregnados en aceite y con resina para
+            transformadores de potencia, cumpliendo las normas IEC y ANSI/IEEE para rendimiento dieléctrico y
+            confiabilidad.</p>
+        </div>
+
+        <div class="feature-card feature-card-elec">
+          <div class="feature-card-icon feature-card-icon-elec">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M18 20V10M12 20V4M6 20v-6" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.elec.s2-title">Relé Buchholz</h4>
+          <p data-i18n="svc.elec.s2-desc">Relés de protección para detección de gas y sobretensión en transformadores
+            sumergidos en aceite, proporcionando advertencia temprana de fallos y protegiendo el equipo de daños
+            catastróficos.</p>
+        </div>
+
+        <div class="feature-card feature-card-elec">
+          <div class="feature-card-icon feature-card-icon-elec">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.elec.s3-title">Sistemas de Control y Monitoreo</h4>
+          <p data-i18n="svc.elec.s3-desc">Sistemas de control compatibles con SCADA con imágenes térmicas, gestión de
+            carga y capacidades de monitoreo remoto para la protección de transformadores y eficiencia operativa.</p>
+        </div>
+
+        <div class="feature-card feature-card-elec">
+          <div class="feature-card-icon feature-card-icon-elec">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.elec.s4-title">Ventiladores de Enfriamiento</h4>
+          <p data-i18n="svc.elec.s4-desc">Conjuntos de ventiladores de enfriamiento de aire forzado y sistemas de
+            enfriamiento ONAN/ONAF diseñados para mantener temperaturas de operación óptimas del transformador bajo
+            condiciones de carga variable.</p>
+        </div>
+
+        <div class="feature-card feature-card-elec">
+          <div class="feature-card-icon feature-card-icon-elec">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.elec.s5-title">Aislamiento para Transformadores</h4>
+          <p data-i18n="svc.elec.s5-desc">Papel Kraft, cartón, papel crepé y sistemas de aislamiento impregnados en
+            líquido diseñados para la integridad dieléctrica a largo plazo en aplicaciones de transformadores de
+            potencia.</p>
+        </div>
+
+        <div class="feature-card feature-card-elec">
+          <div class="feature-card-icon feature-card-icon-elec">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+            </svg>
+          </div>
+          <h4 data-i18n="svc.elec.s6-title">Aceites Eléctricos</h4>
+          <p data-i18n="svc.elec.s6-desc">Aceites minerales nafténicos, ésteres naturales y fluidos sintéticos que
+            cumplen con las especificaciones IEC 60296 y ASTM D3487 para aislamiento y refrigeración de transformadores.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 data-i18n="cta.svc.title">¿Necesita Consultoría o Cotización?</h2>
+        <p data-i18n="cta.svc.desc">Nuestro equipo de expertos está listo para proveer soluciones integrales adaptadas a
+          sus requerimientos específicos de operación y mantenimiento.</p>
+        <div class="cta-actions">
+          <a href="contacto.html" class="btn btn-red btn-lg" data-i18n="cta.svc.btn1">Contáctenos Hoy</a>
+          <a href="mailto:info@silas7.com" class="btn btn-outline-white btn-lg">info@silas7.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="Images/Logo-recortado.png" alt="Silas Seve7n Holdings Corp" class="footer-logo"
+            onerror="this.style.display='none'">
+          <p data-i18n="footer.desc">Socio estratégico para los sectores industrial y energético. Expertos en soluciones
+            químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia. Certificados
+            ASME y ASTM.</p>
+          <div class="footer-social">
+            <a href="mailto:info@silas7.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav-heading">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.svc-heading">Servicios</h4>
+          <ul>
+            <li><a href="servicios.html#metalworking" data-i18n="footer.svc.metal">Metalmecánica</a></li>
+            <li><a href="servicios.html#chemical" data-i18n="footer.svc.chem">Tratamiento Químico</a></li>
+            <li><a href="servicios.html#electrical" data-i18n="footer.svc.elec">Transformadores de Potencia</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact-heading">Contacto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            <a href="mailto:info@silas7.com">info@silas7.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+            <address>E 2nd St, Ste 7000, Casper, WY, United States</address>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">&copy; 2025 &mdash; Silas Seve<span style="color:#bd0016;">7</span>n Holdings
+          Corp. Todos los derechos reservados.</p>
+        <span class="footer-cert"><span class="cert-dot">&#9679;</span> ASME &amp; ASTM Certified &nbsp;|&nbsp; EIN:
+          99-2086051</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

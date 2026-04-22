@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Nosotros — Silas Seve7n Holdings Corp (SSHC). Empresa con sede en EE. UU. comprometida con la excelencia en ingeniería industrial, soluciones químicas de alto rendimiento y componentes de potencia eléctrica. Certificada ASME y ASTM.">
+  <title>Nosotros — Silas Seve7n Holdings Corp</title>
+  <link rel="icon" type="image/png" href="Images/Logo-recortado.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar solid" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Images/Logo-recortado.png" alt="Silas Seve7n Holdings Corp" class="logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback" style="display:none;">SILAS SEVE7N</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="nosotros.html" class="nav-link active" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="servicios.html" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="contacto.html" class="nav-link btn-red" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+        </svg>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <span>/</span>
+        <span data-i18n="nos.breadcrumb">Nosotros</span>
+      </div>
+      <h1 data-i18n="nos.ph-title"><span style="color:var(--blue);">Quiénes</span> Somos</h1>
+      <p data-i18n="nos.ph-desc">Una empresa con sede en EE. UU. comprometida con la excelencia en ingeniería, la
+        continuidad operativa y los estándares internacionales de calidad.</p>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT INTRO ═══ -->
+  <section class="about-section section">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-image-col animate-fade-up">
+          <div class="about-image-wrapper" style="background:var(--gray-light);">
+            <img src="Images/trabajadores/gm1.png" alt="Silas Seve7n Holdings Corp — Equipo industrial"
+              onerror="this.parentElement.style.background='var(--gray-100)'">
+          </div>
+        </div>
+
+        <div class="about-content animate-fade-up" style="animation-delay:0.15s;">
+          <div class="section-label" style="color:var(--red);" data-i18n="nos.history-label">Nuestra Empresa</div>
+          <h2 data-i18n="nos.history-title">Ingeniería Confiable, <span style="color:var(--red);">Impulsando el
+              Futuro</span></h2>
+          <p class="lead" data-i18n="nos.p1">
+            Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp es una corporación con sede en Casper,
+            Wyoming. Fue creada con el propósito de suministrar productos químicos de alto rendimiento y servicios
+            especializados de ingeniería a los sectores industrial y energético, combinando profunda experiencia técnica
+            con un compromiso con las normas internacionales de calidad.
+          </p>
+          <p class="lead" style="margin-top:16px;" data-i18n="nos.p2">
+            Actuamos como socio estratégico de confianza para operadores que buscan la continuidad operativa y la
+            integridad de sus activos industriales. Nuestras soluciones se construyen sobre las normas ASME y ASTM, con
+            un enfoque en la seguridad operativa, la protección ambiental y la maximización de la eficiencia energética
+            e hídrica.
+          </p>
+
+          <div class="about-highlights" style="margin-top:32px;">
+            <div class="about-highlight-item">
+              <div class="about-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <div>
+                <strong data-i18n="nos.ic1-title">Ingeniería Certificada ASME y ASTM</strong>
+                <p data-i18n="nos.ic1-desc">Nuestros servicios de metalmecánica y fabricación cumplen plenamente con los
+                  códigos ASME y ASTM, garantizando los más altos estándares de seguridad y calidad para calderas,
+                  intercambiadores de calor y recipientes a presión.</p>
+              </div>
+            </div>
+            <div class="about-highlight-item">
+              <div class="about-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <div>
+                <strong data-i18n="nos.ic2-title">Soluciones Industriales Integrales</strong>
+                <p data-i18n="nos.ic2-desc">Desde el tratamiento químico upstream hasta los componentes para
+                  transformadores de potencia, ofrecemos soluciones de extremo a extremo que simplifican la gestión de
+                  proyectos y reducen la necesidad de múltiples contratistas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══ VISION & MISSION ═══ -->
+  <section class="section mv-dark-section" style="background:linear-gradient(135deg,var(--dark) 0%,var(--navy) 100%);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" data-i18n="mv.label">Nuestra Filosofía</div>
+        <h2 class="section-title on-dark" data-i18n="mv.title">Misión, Visión y Política de Calidad</h2>
+      </div>
+
+      <div class="mv-grid">
+        <div class="mv-card mv-card-vision animate-fade-up">
+          <div class="mv-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3 data-i18n="mv.vision-title">Visión</h3>
+          <p data-i18n="mv.vision-body">Convertirnos en referente de excelencia en ingeniería de mantenimiento
+            industrial, con la capacidad técnica de extender la vida útil de los sistemas térmicos, liderar a través de
+            la innovación en tratamientos de fluidos y proyectos metalmecánicos, e impulsar la máxima eficiencia
+            energética para nuestros clientes a nivel mundial.</p>
+        </div>
+
+        <div class="mv-card mv-card-mission animate-fade-up" style="animation-delay:0.12s;">
+          <div class="mv-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3 data-i18n="mv.mission-title">Misión</h3>
+          <p data-i18n="mv.mission-body">Garantizar la continuidad operativa y la integridad de los activos industriales
+            de nuestros clientes mediante el suministro de productos químicos de alto rendimiento y servicios
+            especializados de ingeniería para calderas e intercambiadores de calor, bajo las normas ASME y ASTM,
+            priorizando la seguridad operativa, la protección ambiental y la optimización de los recursos hídricos y
+            energéticos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ QUALITY POLICY ═══ -->
+  <section class="section" style="background:var(--off-white);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" data-i18n="qual.label">Política de Calidad</div>
+        <h2 class="section-title on-light" data-i18n="qual.title">Nuestro Compromiso con la Calidad</h2>
+        <p class="section-desc on-light" data-i18n="qual.desc">En Silas Seve<span style="color:#bd0016;">7</span>n
+          Holdings Corp, la calidad está integrada en cada proceso, servicio y relación.</p>
+      </div>
+
+      <div class="quality-grid animate-fade-up">
+        <div class="quality-item">
+          <div class="quality-check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+          </div>
+          <p data-i18n="qual.item1">Satisfacer las necesidades y expectativas de nuestros clientes y accionistas.</p>
+        </div>
+        <div class="quality-item">
+          <div class="quality-check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+          </div>
+          <p data-i18n="qual.item2">Pleno cumplimiento de todos los requisitos legales y contractuales.</p>
+        </div>
+        <div class="quality-item">
+          <div class="quality-check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+          </div>
+          <p data-i18n="qual.item3">Planificar y mejorar continuamente nuestros procesos y procedimientos.</p>
+        </div>
+        <div class="quality-item">
+          <div class="quality-check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+          </div>
+          <p data-i18n="qual.item4">Garantizar el suministro adecuado de materiales y recursos tecnológicos.</p>
+        </div>
+        <div class="quality-item">
+          <div class="quality-check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+          </div>
+          <p data-i18n="qual.item5">Seleccionar y evaluar continuamente a nuestros proveedores bajo estándares de
+            calidad.</p>
+        </div>
+        <div class="quality-item">
+          <div class="quality-check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+          </div>
+          <p data-i18n="qual.item6">Evaluar el desempeño de manera sistemática y proponer acciones de mejora concretas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DIFFERENTIATORS ═══ -->
+  <section class="section diff-dark-section" style="background:var(--dark);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" data-i18n="diff.label">Factores Clave</div>
+        <h2 class="section-title on-dark" data-i18n="diff.title">Lo Que Nos Distingue</h2>
+        <p class="section-desc on-dark" data-i18n="diff.desc">Factores que posicionan a Silas Seve<span
+            style="color:#bd0016;">7</span>n Holdings Corp como el socio estratégico de confianza para los sectores
+          industrial y energético.</p>
+      </div>
+
+      <div class="diff-grid animate-fade-up">
+        <div class="diff-card">
+          <div class="diff-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h4 data-i18n="diff.cert-title">Certificación ASME y ASTM</h4>
+          <p data-i18n="diff.cert-desc">Ingeniería y fabricación que cumplen con normas internacionales para recipientes
+            a presión, calderas y materiales industriales.</p>
+        </div>
+
+        <div class="diff-card">
+          <div class="diff-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+          </div>
+          <h4 data-i18n="diff.intl-title">Sede en EE. UU.</h4>
+          <p data-i18n="diff.intl-desc">Incorporada en Wyoming con EIN de EE. UU., operando bajo marcos legales y
+            financieros norteamericanos para proyectos internacionales.</p>
+        </div>
+
+        <div class="diff-card">
+          <div class="diff-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h4 data-i18n="diff.intgr-title">Soluciones Integradas</h4>
+          <p data-i18n="diff.intgr-desc">Metalmecánica, tratamiento químico y componentes eléctricos en un solo
+            proveedor — reduciendo la complejidad de la gestión de contratistas.</p>
+        </div>
+
+        <div class="diff-card">
+          <div class="diff-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+            </svg>
+          </div>
+          <h4 data-i18n="diff.elec-title">Infraestructura Eléctrica</h4>
+          <p data-i18n="diff.elec-desc">Suministro especializado de componentes para transformadores y aceites
+            eléctricos para empresas de servicios e instalaciones industriales en todo el mundo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CERTIFICATIONS ═══ -->
+  <section class="certs-grid-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" data-i18n="cert.label">Garantía de Calidad</div>
+        <h2 class="section-title on-light" data-i18n="cert.title">Nuestras Certificaciones y Normas</h2>
+        <p class="section-desc on-light" data-i18n="cert.desc">
+          Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp opera bajo los estándares internacionales más
+          exigentes para garantizar calidad, seguridad y confiabilidad en cada proyecto.
+        </p>
+      </div>
+      <div class="certs-grid animate-fade-up">
+        <div class="cert-box">
+          <div class="cert-box-name" data-i18n="cert.asme-name">ASME</div>
+          <p class="cert-box-desc" data-i18n="cert.asme-desc">Norma de fabricación de calderas y recipientes a presión —
+            garantizando la mayor seguridad en sistemas térmicos.</p>
+        </div>
+        <div class="cert-box">
+          <div class="cert-box-name" data-i18n="cert.astm-name">ASTM</div>
+          <p class="cert-box-desc" data-i18n="cert.astm-desc">Normas de materiales y fabricación para metalmecánica de
+            precisión e integridad estructural.</p>
+        </div>
+        <div class="cert-box">
+          <div class="cert-box-name" data-i18n="cert.cov-name">COVENIN</div>
+          <p class="cert-box-desc" data-i18n="cert.cov-desc">Normas de calidad e inspección industrial para operaciones
+            de proceso y manufactura.</p>
+        </div>
+        <div class="cert-box">
+          <div class="cert-box-name" data-i18n="cert.fon-name">FONDONORMA</div>
+          <p class="cert-box-desc" data-i18n="cert.fon-desc">Certificación de normalización y calidad — RIF J-508213858.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 data-i18n="cta.nos.title">¿Listo para Trabajar con Nosotros?</h2>
+        <p data-i18n="cta.nos.desc">Contáctenos y descubra cómo podemos optimizar sus operaciones industriales con
+          soluciones personalizadas y conformes a las normas internacionales.</p>
+        <div class="cta-actions">
+          <a href="contacto.html" class="btn btn-red btn-lg" data-i18n="cta.nos.btn1">Contáctenos</a>
+          <a href="servicios.html" class="btn btn-outline-white btn-lg" data-i18n="cta.nos.btn2">Ver Servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="Images/Logo-recortado.png" alt="Silas Seve7n Holdings Corp" class="footer-logo"
+            onerror="this.style.display='none'">
+          <p data-i18n="footer.desc">Socio estratégico para los sectores industrial y energético. Expertos en soluciones
+            químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia. Certificados
+            ASME y ASTM.</p>
+          <div class="footer-social">
+            <a href="mailto:info@silas7.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav-heading">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.svc-heading">Servicios</h4>
+          <ul>
+            <li><a href="servicios.html#metalworking" data-i18n="footer.svc.metal">Metalmecánica</a></li>
+            <li><a href="servicios.html#chemical" data-i18n="footer.svc.chem">Tratamiento Químico</a></li>
+            <li><a href="servicios.html#electrical" data-i18n="footer.svc.elec">Transformadores de Potencia</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact-heading">Contacto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            <a href="mailto:info@silas7.com">info@silas7.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+            <address>E 2nd St, Ste 7000, Casper, WY, United States</address>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">&copy; 2025 &mdash; Silas Seve<span style="color:#bd0016;">7</span>n Holdings
+          Corp. Todos los derechos reservados.</p>
+        <span class="footer-cert"><span class="cert-dot">&#9679;</span> ASME &amp; ASTM Certified &nbsp;|&nbsp; EIN:
+          99-2086051</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

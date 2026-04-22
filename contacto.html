@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacto — Silas Seve7n Holdings Corp (SSHC). Comuníquese con nuestro equipo técnico especializado para asesoramiento y propuestas de proyectos industriales. Sede en Casper, Wyoming, EE. UU.">
+  <title>Contacto — Silas Seve7n Holdings Corp</title>
+  <link rel="icon" type="image/png" href="Images/Logo-recortado.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar solid" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Images/Logo-recortado.png" alt="Silas Seve7n Holdings Corp" class="logo-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback" style="display:none;">SILAS SEVE7N</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"     class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="nosotros.html"  class="nav-link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="servicios.html" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="contacto.html"  class="nav-link btn-red active" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <span>/</span>
+        <span data-i18n="ctc.breadcrumb">Contacto</span>
+      </div>
+      <h1 data-i18n="ctc.ph-title">Póngase en <span style="color:var(--blue);">Contacto</span></h1>
+      <p data-i18n="ctc.ph-desc">Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp está disponible para atender sus requerimientos con rapidez, precisión y profesionalismo.</p>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT SECTION ═══ -->
+  <section class="contact-section">
+    <div class="container">
+
+      <!-- Info Cards Row -->
+      <div class="contact-cards-row animate-fade-up">
+
+        <div class="contact-info-card">
+          <div class="contact-info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div class="contact-info-card-label" data-i18n="ctc.card1-label">Dirección</div>
+          <div class="contact-info-card-value" data-i18n="ctc.card1-value">E 2nd St, Ste 7000<br>Casper, WY, United States</div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-info-card-label" data-i18n="ctc.card2-label">Email</div>
+          <div class="contact-info-card-value"><a href="mailto:info@silas7.com" data-i18n="ctc.card2-value">info@silas7.com</a></div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div class="contact-info-card-label" data-i18n="ctc.card3-label">Sitio Web</div>
+          <div class="contact-info-card-value"><a href="https://silas7.com" data-i18n="ctc.card3-value">silas7.com</a></div>
+        </div>
+
+      </div>
+
+      <!-- Form + Info Grid -->
+      <div class="contact-grid animate-fade-up">
+
+        <!-- Info Column -->
+        <div class="contact-info-col">
+          <div class="section-label" style="color:var(--red);" data-i18n="ctc.info-label">Escríbanos</div>
+          <h2 data-i18n="ctc.info-title">Estamos Listos<br>para Atenderle</h2>
+          <p class="contact-info-lead" data-i18n="ctc.info-lead">Comuníquese directamente con nuestro equipo técnico especializado. Estamos disponibles para asesorarle y brindarle una propuesta integral adaptada a sus requerimientos operativos específicos.</p>
+
+          <div class="contact-detail-cards">
+            <div class="contact-detail-card">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <strong data-i18n="ctc.card-addr-lbl">Sede Principal</strong>
+                <span data-i18n="ctc.card-addr-val">E 2nd St, Ste 7000, Casper, WY</span>
+              </div>
+            </div>
+            <div class="contact-detail-card">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div>
+                <strong data-i18n="ctc.card-email-lbl">Email</strong>
+                <a href="mailto:info@silas7.com" data-i18n="ctc.card-email-val">info@silas7.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-card">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+              </div>
+              <div>
+                <strong data-i18n="ctc.card-web-lbl">Sitio Web</strong>
+                <a href="https://silas7.com" data-i18n="ctc.card-web-val">silas7.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-response-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px;color:var(--blue);flex-shrink:0;">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <div>
+              <strong data-i18n="ctc.response-title">Respuesta Garantizada en 24h</strong>
+              <p data-i18n="ctc.response-desc">Nuestro equipo responde consultas técnicas dentro de las 24 horas hábiles.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="Images/Logo-recortado.png" alt="Silas Seve7n Holdings Corp" class="footer-logo" onerror="this.style.display='none'">
+          <p data-i18n="footer.desc">Socio estratégico para los sectores industrial y energético. Expertos en soluciones químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia. Certificados ASME y ASTM.</p>
+          <div class="footer-social">
+            <a href="mailto:info@silas7.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav-heading">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.svc-heading">Servicios</h4>
+          <ul>
+            <li><a href="servicios.html#metalworking" data-i18n="footer.svc.metal">Metalmecánica</a></li>
+            <li><a href="servicios.html#chemical" data-i18n="footer.svc.chem">Tratamiento Químico</a></li>
+            <li><a href="servicios.html#electrical" data-i18n="footer.svc.elec">Transformadores de Potencia</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact-heading">Contacto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:info@silas7.com">info@silas7.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <address>E 2nd St, Ste 7000, Casper, WY, United States</address>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.9 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg>
+            <a href="https://silas7.com">silas7.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">&copy; 2025 &mdash; Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. Todos los derechos reservados.</p>
+        <span class="footer-cert"><span class="cert-dot">&#9679;</span> ASME &amp; ASTM Certified &nbsp;|&nbsp; EIN: 99-2086051</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
