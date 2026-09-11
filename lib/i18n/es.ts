@@ -17,6 +17,7 @@ export const es: Record<TranslationKey, string> = {
   'footer.nav-heading': 'Navegación',
   'footer.svc-heading': 'Servicios',
   'footer.contact-heading': 'Contacto',
+  'footer.svc.minerals': 'Minerales Críticos',
   'footer.svc.metal': 'Metalmecánica',
   'footer.svc.chem': 'Tratamiento Químico',
   'footer.svc.elec': 'Transformadores de Potencia',
@@ -45,7 +46,12 @@ export const es: Record<TranslationKey, string> = {
   'idx-svc.label': 'Lo Que Hacemos',
   'idx-svc.title': 'Nuestros Servicios',
   'idx-svc.desc':
-    'Un equipo técnico altamente calificado, preparado para diseñar, ejecutar y supervisar soluciones integrales en metalmecánica, tratamiento químico e infraestructura eléctrica.',
+    'Un equipo técnico altamente calificado, preparado para liderar el suministro y transporte de minerales críticos y tierras raras, además de diseñar, ejecutar y supervisar soluciones integrales en metalmecánica, tratamiento químico e infraestructura eléctrica.',
+  'idx-svc.minerals.badge': 'Servicio Principal',
+  'idx-svc.minerals.title': 'Minerales Críticos y Tierras Raras',
+  'idx-svc.minerals.desc':
+    'Suministro integral y logística de exportación de minerales críticos y elementos de tierras raras, conectando productores certificados con compradores industriales y fundiciones a nivel global.',
+  'idx-svc.minerals.link': 'Ver detalles',
   'idx-svc.chem.title': 'Servicios de Proceso Químico',
   'idx-svc.chem.desc':
     'Tratamientos upstream/downstream, sistemas de inyección automatizada, programas de agua de calderas, biocidas e inhibidores para aguas de proceso.',
@@ -170,12 +176,31 @@ export const es: Record<TranslationKey, string> = {
     'Soluciones de ingeniería integrales para los sectores industrial y energético, entregadas bajo los más altos estándares internacionales de calidad y seguridad.',
 
   /* Servicios — Tabs */
+  'svc.tab.minerals': 'Minerales Críticos',
   'svc.tab.metal': 'Metalmecánica',
   'svc.tab.chem': 'Tratamiento Químico',
   'svc.tab.elec': 'Transformadores de Potencia',
 
+  /* Servicios — Minerales Críticos y Tierras Raras (servicio principal) */
+  'svc.minerals.label': 'Sección 01',
+  'svc.minerals.title': 'Suministro y Transporte de Minerales Críticos y Tierras Raras',
+  'svc.minerals.sub':
+    'Cadena de suministro integral para minerales críticos y elementos de tierras raras — desde el origen hasta el comprador industrial, con trazabilidad y cumplimiento normativo en cada etapa.',
+  'svc.minerals.s1-title': 'Abastecimiento e Identificación de Origen',
+  'svc.minerals.s1-desc':
+    'Identificación de yacimientos y productores certificados de litio, cobalto, níquel, cobre, grafito y elementos de tierras raras (neodimio, praseodimio, disprosio), con verificación técnica y aseguramiento de suministro.',
+  'svc.minerals.s2-title': 'Estructuración Comercial y Contratos de Offtake',
+  'svc.minerals.s2-desc':
+    'Negociación de acuerdos de offtake, condiciones Incoterms, esquemas de precios y cobertura de riesgo, respaldados por documentación comercial y de exportación completa.',
+  'svc.minerals.s3-title': 'Logística y Transporte de Exportación',
+  'svc.minerals.s3-desc':
+    'Coordinación portuaria, transporte multimodal, almacenamiento en depósito aduanero y trámites de exportación para entregas predecibles y trazables de minerales críticos y tierras raras.',
+  'svc.minerals.s4-title': 'Acceso a Mercado y Cumplimiento Normativo',
+  'svc.minerals.s4-desc':
+    'Conexión con fundiciones, compradores industriales y comercializadores calificados, respaldada por debida diligencia KYC y verificación de sanciones y cumplimiento comercial internacional.',
+
   /* Servicios — Metalworking */
-  'svc.metal.label': 'Sección 01',
+  'svc.metal.label': 'Sección 02',
   'svc.metal.title': 'Servicios de Metalmecánica',
   'svc.metal.sub':
     'Fabricación, instalación y mantenimiento de precisión para equipos térmicos industriales de alta exigencia.',
@@ -199,7 +224,7 @@ export const es: Record<TranslationKey, string> = {
     'Servicios expertos de re-tubado para calderas pirotubulares y acuatubulares, cumpliendo con las normas ASME para soldadura, inspección y pruebas de presión.',
 
   /* Servicios — Chemical */
-  'svc.chem.label': 'Sección 02',
+  'svc.chem.label': 'Sección 03',
   'svc.chem.title': 'Servicios Químicos y Metalmecánicos',
   'svc.chem.sub':
     'Programas especializados de tratamiento químico para aplicaciones upstream, downstream, de calderas y aguas de proceso.',
@@ -217,7 +242,7 @@ export const es: Record<TranslationKey, string> = {
     'Biocidas, inhibidores de incrustaciones, biodispersantes, coagulantes y floculantes para torres de enfriamiento, circuitos de agua de proceso y gestión de efluentes industriales.',
 
   /* Servicios — Electrical */
-  'svc.elec.label': 'Sección 03',
+  'svc.elec.label': 'Sección 04',
   'svc.elec.title': 'Componentes para Transformadores de Potencia y Aceites Eléctricos',
   'svc.elec.sub':
     'Componentes críticos y fluidos especiales para operaciones y mantenimiento de transformadores de potencia.',

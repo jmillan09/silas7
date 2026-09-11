@@ -8,7 +8,7 @@ import T from '@/components/T';
 const TITLE = 'Servicios';
 const FULL_TITLE = 'Servicios — Silas Seve7n Holdings Corp';
 const DESCRIPTION =
-  'Servicios — Silas Seve7n Holdings Corp (SSHC). Metalmecánica ASME, Tratamiento Químico Industrial, y Componentes para Transformadores de Potencia. Soluciones integrales para el sector industrial y energético.';
+  'Servicios — Silas Seve7n Holdings Corp (SSHC). Suministro y Transporte de Minerales Críticos y Tierras Raras, Metalmecánica ASME, Tratamiento Químico Industrial, y Componentes para Transformadores de Potencia. Soluciones integrales para el sector industrial y energético.';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -44,6 +44,14 @@ export default function ServiciosPage() {
       <section style={{ background: 'var(--navy)', padding: 0 }}>
         <div className="container">
           <div className="svc-tabs">
+            <a href="#minerals" className="svc-tab">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M6 3h12l4 6-10 13L2 9Z" />
+                <path d="M11 3 8 9l4 13 4-13-3-6" />
+                <path d="M2 9h20" />
+              </svg>
+              <T k="svc.tab.minerals" />
+            </a>
             <a href="#metalworking" className="svc-tab">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
@@ -66,7 +74,57 @@ export default function ServiciosPage() {
         </div>
       </section>
 
-      {/* Section 1: Metalworking */}
+      {/* Section 1: Critical Minerals & Rare Earths (flagship service) */}
+      <section className="service-section-block section alt-bg" id="minerals" style={{ background: 'var(--off-white)' }}>
+        <div className="container">
+          <div className="section-header-left">
+            <T as="div" className="section-label" k="svc.minerals.label" />
+            <T as="h2" className="section-title on-light" k="svc.minerals.title" />
+            <T as="p" className="section-desc on-light" k="svc.minerals.sub" />
+          </div>
+
+          <FadeUp className="section-banner-img" style={bannerStyle}>
+            <img
+              src="/Images/industrias/oil-industry.jpg"
+              alt="Suministro y transporte de minerales críticos y tierras raras"
+              style={bannerImgStyle}
+            />
+          </FadeUp>
+
+          <FadeUp as="div" className="hex-grid">
+            <div className="hex-card">
+              <div className="hex-num">01</div>
+              <div>
+                <T as="h4" k="svc.minerals.s1-title" />
+                <T as="p" k="svc.minerals.s1-desc" />
+              </div>
+            </div>
+            <div className="hex-card">
+              <div className="hex-num">02</div>
+              <div>
+                <T as="h4" k="svc.minerals.s2-title" />
+                <T as="p" k="svc.minerals.s2-desc" />
+              </div>
+            </div>
+            <div className="hex-card">
+              <div className="hex-num">03</div>
+              <div>
+                <T as="h4" k="svc.minerals.s3-title" />
+                <T as="p" k="svc.minerals.s3-desc" />
+              </div>
+            </div>
+            <div className="hex-card">
+              <div className="hex-num">04</div>
+              <div>
+                <T as="h4" k="svc.minerals.s4-title" />
+                <T as="p" k="svc.minerals.s4-desc" />
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* Section 2: Metalworking */}
       <section className="service-section-block section" id="metalworking">
         <div className="container">
           <div className="section-header-left">
@@ -148,7 +206,7 @@ export default function ServiciosPage() {
         </div>
       </section>
 
-      {/* Section 2: Chemical */}
+      {/* Section 3: Chemical */}
       <section className="service-section-block section alt-bg" id="chemical" style={{ background: 'var(--off-white)' }}>
         <div className="container">
           <div className="section-header-left">
@@ -194,7 +252,7 @@ export default function ServiciosPage() {
         </div>
       </section>
 
-      {/* Section 3: Electrical */}
+      {/* Section 4: Electrical */}
       <section className="service-section-block section" id="electrical">
         <div className="container">
           <div className="section-header-left">

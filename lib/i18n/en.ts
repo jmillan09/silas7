@@ -15,6 +15,7 @@ export const en = {
   'footer.nav-heading': 'Navigation',
   'footer.svc-heading': 'Services',
   'footer.contact-heading': 'Contact',
+  'footer.svc.minerals': 'Critical Minerals',
   'footer.svc.metal': 'Metalworking',
   'footer.svc.chem': 'Chemical Treatment',
   'footer.svc.elec': 'Power Transformer',
@@ -43,7 +44,12 @@ export const en = {
   'idx-svc.label': 'What We Do',
   'idx-svc.title': 'Our Services',
   'idx-svc.desc':
-    'A highly qualified technical team prepared to design, execute and oversee comprehensive solutions in metalworking, chemical treatment, and power infrastructure.',
+    'A highly qualified technical team leading the supply and transport of critical minerals and rare earths, alongside comprehensive solutions in metalworking, chemical treatment, and power infrastructure.',
+  'idx-svc.minerals.badge': 'Flagship Service',
+  'idx-svc.minerals.title': 'Critical Minerals &amp; Rare Earths',
+  'idx-svc.minerals.desc':
+    'End-to-end supply and export logistics for critical minerals and rare earth elements, connecting certified producers with industrial buyers and smelters worldwide.',
+  'idx-svc.minerals.link': 'View details',
   'idx-svc.chem.title': 'Chemical Process Services',
   'idx-svc.chem.desc':
     'Upstream/downstream treatments, automated injection systems, boiler water programs, process water biocides, inhibitors and dispersants.',
@@ -168,12 +174,31 @@ export const en = {
     'Comprehensive engineering solutions for the industrial and energy sectors, delivered under the highest international quality and safety standards.',
 
   /* Servicios — Tabs */
+  'svc.tab.minerals': 'Critical Minerals',
   'svc.tab.metal': 'Metalworking',
   'svc.tab.chem': 'Chemical Treatment',
   'svc.tab.elec': 'Power Transformer',
 
+  /* Servicios — Critical Minerals & Rare Earths (flagship service) */
+  'svc.minerals.label': 'Section 01',
+  'svc.minerals.title': 'Critical Minerals &amp; Rare Earths Supply and Transport',
+  'svc.minerals.sub':
+    'End-to-end supply chain for critical minerals and rare earth elements — from origin to industrial buyer, with traceability and regulatory compliance at every stage.',
+  'svc.minerals.s1-title': 'Sourcing &amp; Origin Identification',
+  'svc.minerals.s1-desc':
+    'Identification of deposits and certified producers of lithium, cobalt, nickel, copper, graphite and rare earth elements (neodymium, praseodymium, dysprosium), with technical verification and supply assurance.',
+  'svc.minerals.s2-title': 'Commercial Structuring &amp; Offtake',
+  'svc.minerals.s2-desc':
+    'Negotiation of offtake agreements, Incoterms, pricing structures and risk hedging, backed by complete commercial and export documentation.',
+  'svc.minerals.s3-title': 'Export Logistics &amp; Transport',
+  'svc.minerals.s3-desc':
+    'Port coordination, multimodal freight, bonded storage and export procedures for predictable, traceable deliveries of critical minerals and rare earths.',
+  'svc.minerals.s4-title': 'Market Access &amp; Compliance',
+  'svc.minerals.s4-desc':
+    'Connections with smelters, industrial buyers and qualified traders, supported by KYC due diligence and international sanctions and trade-compliance screening.',
+
   /* Servicios — Metalworking */
-  'svc.metal.label': 'Section 01',
+  'svc.metal.label': 'Section 02',
   'svc.metal.title': 'Metalworking Services',
   'svc.metal.sub':
     'Precision fabrication, installation and maintenance of high-demand industrial thermal equipment.',
@@ -197,7 +222,7 @@ export const en = {
     'Expert boiler re-tubing services for firetube and watertube boilers, complying with ASME standards for welding, inspection and pressure testing.',
 
   /* Servicios — Chemical */
-  'svc.chem.label': 'Section 02',
+  'svc.chem.label': 'Section 03',
   'svc.chem.title': 'Chemical &amp; Metalworking Services',
   'svc.chem.sub':
     'Specialized chemical treatment programs for upstream, downstream, boiler and process water applications.',
@@ -215,7 +240,7 @@ export const en = {
     'Biocides, scale inhibitors, biodispersants, coagulants and flocculants for cooling towers, process water circuits and industrial effluent management.',
 
   /* Servicios — Electrical */
-  'svc.elec.label': 'Section 03',
+  'svc.elec.label': 'Section 04',
   'svc.elec.title': 'Power Transformer Components &amp; Electrical Oils',
   'svc.elec.sub': 'Critical components and specialty fluids for power transformer operations and maintenance.',
   'svc.elec.s1-title': 'Bushings',

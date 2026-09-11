@@ -49,6 +49,11 @@ export default function Footer() {
             <T as="h4" k="footer.svc-heading" />
             <ul>
               <li>
+                <Link href="/servicios#minerals">
+                  <T k="footer.svc.minerals" />
+                </Link>
+              </li>
+              <li>
                 <Link href="/servicios#metalworking">
                   <T k="footer.svc.metal" />
                 </Link>

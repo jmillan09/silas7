@@ -70,6 +70,37 @@ export default function HomePage() {
           </div>
 
           <div className="services-grid">
+            <FadeUp className="service-card">
+              <div
+                className="service-card-img"
+                style={{
+                  background: 'var(--navy)',
+                  backgroundImage: "url('/Images/industrias/oil-industry.jpg')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              >
+                <T as="span" className="service-card-badge" k="idx-svc.minerals.badge" />
+              </div>
+              <div className="service-card-body">
+                <div className="service-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M6 3h12l4 6-10 13L2 9Z" />
+                    <path d="M11 3 8 9l4 13 4-13-3-6" />
+                    <path d="M2 9h20" />
+                  </svg>
+                </div>
+                <T as="h3" k="idx-svc.minerals.title" />
+                <T as="p" k="idx-svc.minerals.desc" />
+                <Link href="/servicios#minerals" className="service-link">
+                  <T as="span" k="idx-svc.minerals.link" />
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            </FadeUp>
+
             <FadeUp className="service-card" delay={0.12}>
               <div
                 className="service-card-img"
@@ -97,7 +128,7 @@ export default function HomePage() {
               </div>
             </FadeUp>
 
-            <FadeUp className="service-card">
+            <FadeUp className="service-card" delay={0.18}>
               <div
                 className="service-card-img"
                 style={{
