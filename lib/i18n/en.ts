@@ -184,18 +184,18 @@ export const en = {
   'svc.minerals.title': 'Critical Minerals &amp; Rare Earths Supply and Transport',
   'svc.minerals.sub':
     'End-to-end supply chain for critical minerals and rare earth elements — from origin to industrial buyer, with traceability and regulatory compliance at every stage.',
-  'svc.minerals.s1-title': 'Sourcing &amp; Origin Identification',
+  'svc.minerals.s1-title': 'Resource Sourcing',
   'svc.minerals.s1-desc':
-    'Identification of deposits and certified producers of lithium, cobalt, nickel, copper, graphite and rare earth elements (neodymium, praseodymium, dysprosium), with technical verification and supply assurance.',
-  'svc.minerals.s2-title': 'Commercial Structuring &amp; Offtake',
+    'Origin identification, technical specifications and supply assurance alongside certified, auditable producers of critical minerals and rare earths.',
+  'svc.minerals.s2-title': 'Structuring &amp; Offtake Agreements',
   'svc.minerals.s2-desc':
-    'Negotiation of offtake agreements, Incoterms, pricing structures and risk hedging, backed by complete commercial and export documentation.',
-  'svc.minerals.s3-title': 'Export Logistics &amp; Transport',
+    'Commercial structuring, offtake agreements, pricing schemes, Incoterms and risk hedging, backed by full documentation for complex cross-border transactions.',
+  'svc.minerals.s3-title': 'Logistics &amp; Export',
   'svc.minerals.s3-desc':
-    'Port coordination, multimodal freight, bonded storage and export procedures for predictable, traceable deliveries of critical minerals and rare earths.',
-  'svc.minerals.s4-title': 'Market Access &amp; Compliance',
+    'Port coordination, multimodal freight, storage and export procedures, focused on delivery timing, cost and traceability.',
+  'svc.minerals.s4-title': 'Market Access',
   'svc.minerals.s4-desc':
-    'Connections with smelters, industrial buyers and qualified traders, supported by KYC due diligence and international sanctions and trade-compliance screening.',
+    'Connections with smelters, industrial buyers and qualified traders seeking consistent volume and quality.',
 
   /* Servicios — Metalworking */
   'svc.metal.label': 'Section 02',
