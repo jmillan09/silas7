@@ -24,7 +24,7 @@ export const en = {
 
   /* Index — Hero */
   'hero.desc':
-    'Leading strategic partner for the industrial and energy sectors. Expert in advanced chemical solutions, precision metalworking, and power transformer components.',
+    'A U.S.-based company and leading strategic partner for the industrial and energy sectors. Expert in advanced chemical solutions, precision metalworking, and power transformer components.',
   'hero.btn-services': 'View Services',
   'hero.btn-proposal': 'Request Proposal',
   'hero.cert1-badge': 'International Certification',

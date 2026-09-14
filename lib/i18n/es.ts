@@ -26,7 +26,7 @@ export const es: Record<TranslationKey, string> = {
 
   /* Index — Hero */
   'hero.desc':
-    'Socio estratégico líder para los sectores industrial y energético. Expertos en soluciones químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia.',
+    'Empresa con sede en Estados Unidos y socio estratégico líder para los sectores industrial y energético. Expertos en soluciones químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia.',
   'hero.btn-services': 'Ver Servicios',
   'hero.btn-proposal': 'Solicitar Propuesta',
   'hero.cert1-badge': 'Certificación Internacional',
