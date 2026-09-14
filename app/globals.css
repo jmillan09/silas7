@@ -1913,6 +1913,19 @@ button {
   margin-bottom: 40px;
 }
 
+/* 3-item variant (critical minerals) */
+.hex-grid.hex-grid-3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1200px) {
+  .hex-grid.hex-grid-3col { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 1024px) {
+  .hex-grid.hex-grid-3col { grid-template-columns: 1fr; }
+}
+
 .hex-card {
   background: var(--off-white);
   border: 1px solid var(--gray-100);

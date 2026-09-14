@@ -91,7 +91,7 @@ export default function ServiciosPage() {
             />
           </FadeUp>
 
-          <FadeUp as="div" className="hex-grid">
+          <FadeUp as="div" className="hex-grid hex-grid-3col">
             <div className="hex-card">
               <div className="hex-num">01</div>
               <div>
@@ -111,13 +111,6 @@ export default function ServiciosPage() {
               <div>
                 <T as="h4" k="svc.minerals.s3-title" />
                 <T as="p" k="svc.minerals.s3-desc" />
-              </div>
-            </div>
-            <div className="hex-card">
-              <div className="hex-num">04</div>
-              <div>
-                <T as="h4" k="svc.minerals.s4-title" />
-                <T as="p" k="svc.minerals.s4-desc" />
               </div>
             </div>
           </FadeUp>

@@ -186,17 +186,14 @@ export const es: Record<TranslationKey, string> = {
   'svc.minerals.title': 'Suministro y Transporte de Minerales Críticos y Tierras Raras',
   'svc.minerals.sub':
     'Cadena de suministro integral para minerales críticos y elementos de tierras raras — desde el origen hasta el comprador industrial, con trazabilidad y cumplimiento normativo en cada etapa.',
-  'svc.minerals.s1-title': 'Abastecimiento de Recursos',
+  'svc.minerals.s1-title': 'Estructuración y Contratos de Offtake',
   'svc.minerals.s1-desc':
-    'Identificación de origen, especificaciones técnicas y aseguramiento del suministro junto a productores certificados y auditables de minerales críticos y tierras raras.',
-  'svc.minerals.s2-title': 'Estructuración y Contratos de Offtake',
-  'svc.minerals.s2-desc':
     'Estructuración comercial, acuerdos de offtake, esquemas de precios, condiciones Incoterms y cobertura de riesgo, respaldados por documentación completa para operaciones transfronterizas complejas.',
-  'svc.minerals.s3-title': 'Logística y Exportación',
-  'svc.minerals.s3-desc':
+  'svc.minerals.s2-title': 'Logística y Exportación',
+  'svc.minerals.s2-desc':
     'Coordinación portuaria, transporte multimodal, almacenamiento y gestión de trámites de exportación, con foco en tiempos de entrega, costos y trazabilidad.',
-  'svc.minerals.s4-title': 'Acceso a Mercado',
-  'svc.minerals.s4-desc':
+  'svc.minerals.s3-title': 'Acceso a Mercado',
+  'svc.minerals.s3-desc':
     'Conexión con fundiciones, compradores industriales y comercializadores calificados que buscan volumen y calidad consistentes.',
 
   /* Servicios — Metalworking */
