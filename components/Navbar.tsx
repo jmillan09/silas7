@@ -6,9 +6,13 @@ import { useEffect, useRef, useState } from 'react';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import T from './T';
 
+const COMPANY_LINKS = [
+  { href: '/nosotros', key: 'nav.who' as const },
+  { href: '/gerencia', key: 'nav.management' as const },
+];
+
 const NAV_LINKS = [
-  { href: '/', key: 'nav.home' as const },
-  { href: '/nosotros', key: 'nav.about' as const },
+  { href: '/operaciones', key: 'nav.operations' as const },
   { href: '/servicios', key: 'nav.services' as const },
 ];
 
@@ -19,7 +23,14 @@ export default function Navbar() {
 
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [companyOpen, setCompanyOpen] = useState(false);
   const navRef = useRef<HTMLElement>(null);
+  const isCompanyActive = COMPANY_LINKS.some((link) => pathname === link.href);
+
+  const closeMenus = () => {
+    setMenuOpen(false);
+    setCompanyOpen(false);
+  };
 
   useEffect(() => {
     if (!isHome) return;
@@ -31,10 +42,17 @@ export default function Navbar() {
 
   useEffect(() => {
     const onDocClick = (e: MouseEvent) => {
-      if (navRef.current && !navRef.current.contains(e.target as Node)) setMenuOpen(false);
+      if (navRef.current && !navRef.current.contains(e.target as Node)) closeMenus();
+    };
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setCompanyOpen(false);
     };
     document.addEventListener('click', onDocClick);
-    return () => document.removeEventListener('click', onDocClick);
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('click', onDocClick);
+      document.removeEventListener('keydown', onKeyDown);
+    };
   }, []);
 
   const navClassName = ['navbar', !isHome ? 'solid' : '', isHome && scrolled ? 'scrolled' : '']
@@ -44,7 +62,7 @@ export default function Navbar() {
   return (
     <nav className={navClassName} id="navbar" ref={navRef}>
       <div className="nav-container">
-        <Link href="/" className="nav-logo" onClick={() => setMenuOpen(false)}>
+        <Link href="/" className="nav-logo" onClick={closeMenus}>
           <img
             src="/Images/Logo-recortado.png"
             alt="Silas Seve7n Holdings Corp"
@@ -72,12 +90,40 @@ export default function Navbar() {
         </button>
 
         <ul className={`nav-menu${menuOpen ? ' open' : ''}`} id="navMenu">
+          <li className={`nav-dropdown${companyOpen ? ' open' : ''}`}>
+            <button
+              type="button"
+              className={`nav-link nav-dropdown-toggle${isCompanyActive ? ' active' : ''}`}
+              aria-haspopup="true"
+              aria-expanded={companyOpen}
+              aria-controls="companyMenu"
+              onClick={() => setCompanyOpen((v) => !v)}
+            >
+              <T k="nav.company" />
+              <svg className="nav-dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <ul className="nav-dropdown-menu" id="companyMenu">
+              {COMPANY_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={`nav-dropdown-link${pathname === link.href ? ' active' : ''}`}
+                    onClick={closeMenus}
+                  >
+                    <T k={link.key} />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <Link
                 href={link.href}
                 className={`nav-link${pathname === link.href ? ' active' : ''}`}
-                onClick={() => setMenuOpen(false)}
+                onClick={closeMenus}
               >
                 <T k={link.key} />
               </Link>
@@ -87,7 +133,7 @@ export default function Navbar() {
             <Link
               href="/contacto"
               className={`nav-link btn-red${pathname === '/contacto' ? ' active' : ''}`}
-              onClick={() => setMenuOpen(false)}
+              onClick={closeMenus}
             >
               <T k="nav.contact" />
             </Link>

@@ -7,9 +7,12 @@ import type { TranslationKey } from './en';
 export const es: Record<TranslationKey, string> = {
   /* Navigation */
   'nav.home': 'Inicio',
-  'nav.about': 'Nosotros',
   'nav.services': 'Servicios',
   'nav.contact': 'Contacto',
+  'nav.company': 'Empresa',
+  'nav.who': 'Quiénes Somos',
+  'nav.management': 'Gerencia',
+  'nav.operations': 'Operaciones',
 
   /* Footer */
   'footer.desc':
@@ -26,7 +29,7 @@ export const es: Record<TranslationKey, string> = {
 
   /* Index — Hero */
   'hero.desc':
-    'Empresa con sede en Estados Unidos y socio estratégico líder para los sectores industrial y energético. Expertos en soluciones químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia.',
+    'Silas Seve7n Holdings Corp. conecta a productores venezolanos calificados de minerales críticos con fabricantes y usuarios finales en Estados Unidos. Desarrollamos cadenas de suministro seguras, transparentes y conformes a la normativa para materiales esenciales para la industria estadounidense.',
   'hero.btn-services': 'Ver Servicios',
   'hero.btn-proposal': 'Solicitar Propuesta',
   'hero.cert1-badge': 'Certificación Internacional',
@@ -88,64 +91,47 @@ export const es: Record<TranslationKey, string> = {
   'cta.btn-proposal': 'Solicitar Propuesta',
 
   /* Nosotros — Page header */
-  'nos.breadcrumb': 'Nosotros',
+  'nos.breadcrumb': 'Quiénes Somos',
   'nos.ph-title': '<span style="color:var(--blue);">Quiénes</span> Somos',
   'nos.ph-desc':
     'Una empresa con sede en EE. UU. comprometida con la excelencia en ingeniería, la continuidad operativa y los estándares internacionales de calidad.',
 
   /* Nosotros — About intro */
   'nos.history-label': 'Nuestra Empresa',
-  'nos.history-title': 'Ingeniería Confiable, <span style="color:var(--red);">Impulsando el Futuro</span>',
+  'nos.history-title': 'Conectando Recursos Críticos. <span style="color:var(--red);">Impulsando el Futuro</span>',
   'nos.p1':
-    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp es una corporación con sede en Casper, Wyoming. Fue creada con el propósito de suministrar productos químicos de alto rendimiento y servicios especializados de ingeniería a los sectores industrial y energético, combinando profunda experiencia técnica con un compromiso con las normas internacionales de calidad.',
+    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. es una empresa estadounidense con sede en Casper, Wyoming, enfocada en desarrollar oportunidades comerciales estratégicas en minerales críticos, energía y materiales industriales.',
   'nos.p2':
-    'Actuamos como socio estratégico de confianza para operadores que buscan la continuidad operativa y la integridad de sus activos industriales. Nuestras soluciones se construyen sobre las normas ASME y ASTM, con un enfoque en la seguridad operativa, la protección ambiental y la maximización de la eficiencia energética e hídrica.',
-  'nos.ic1-title': 'Ingeniería Certificada ASME y ASTM',
+    'Conectamos a productores venezolanos calificados de tantalio, niobio, estaño, elementos de tierras raras y otros recursos críticos con fabricantes y usuarios finales en Estados Unidos. Nuestra misión es construir cadenas de suministro seguras, transparentes y legalmente conformes que respalden a la industria estadounidense.',
+  'nos.ic1-title': 'Alianzas Estratégicas en Minerales Críticos',
   'nos.ic1-desc':
-    'Nuestros servicios de metalmecánica y fabricación cumplen plenamente con los códigos ASME y ASTM, garantizando los más altos estándares de seguridad y calidad para calderas, intercambiadores de calor y recipientes a presión.',
-  'nos.ic2-title': 'Soluciones Industriales Integrales',
+    'Identificamos y estructuramos oportunidades entre productores minerales calificados y compradores, fabricantes y socios industriales establecidos en Estados Unidos.',
+  'nos.ic2-title': 'Cadenas de Suministro Seguras y Conformes',
   'nos.ic2-desc':
-    'Desde el tratamiento químico upstream hasta los componentes para transformadores de potencia, ofrecemos soluciones de extremo a extremo que simplifican la gestión de proyectos y reducen la necesidad de múltiples contratistas.',
+    'Cada oportunidad se desarrolla con un enfoque en la transparencia, el abastecimiento responsable y el cumplimiento de las leyes, sanciones y regulaciones comerciales de EE. UU. aplicables, así como de los requisitos de licencias de la OFAC.',
 
   /* Nosotros — Mission / Vision */
-  'mv.label': 'Nuestra Filosofía',
-  'mv.title': 'Misión, Visión y Política de Calidad',
+  'mv.label': 'Nuestro Propósito',
+  'mv.title': 'Misión y Visión',
   'mv.vision-title': 'Visión',
   'mv.vision-body':
-    'Convertirnos en referente de excelencia en ingeniería de mantenimiento industrial, con la capacidad técnica de extender la vida útil de los sistemas térmicos, liderar a través de la innovación en tratamientos de fluidos y proyectos metalmecánicos, e impulsar la máxima eficiencia energética para nuestros clientes a nivel mundial.',
+    'Convertirnos en un puente confiable entre los recursos minerales de Venezuela y la industria estadounidense, desarrollando cadenas de suministro seguras, transparentes y responsables para minerales críticos y elementos de tierras raras.',
   'mv.mission-title': 'Misión',
   'mv.mission-body':
-    'Garantizar la continuidad operativa y la integridad de los activos industriales de nuestros clientes mediante el suministro de productos químicos de alto rendimiento y servicios especializados de ingeniería para calderas e intercambiadores de calor, bajo las normas ASME y ASTM, priorizando la seguridad operativa, la protección ambiental y la optimización de los recursos hídricos y energéticos.',
+    'Nuestra misión es fortalecer el acceso de Estados Unidos a los minerales críticos mediante conexiones seguras, transparentes y responsables entre productores venezolanos calificados y la industria estadounidense, respaldando cadenas de suministro resilientes, el crecimiento económico y la seguridad energética y nacional a largo plazo.',
 
-  /* Nosotros — Quality Policy */
-  'qual.label': 'Política de Calidad',
-  'qual.title': 'Nuestro Compromiso con la Calidad',
-  'qual.desc':
-    'En Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp, la calidad está integrada en cada proceso, servicio y relación.',
-  'qual.item1': 'Satisfacer las necesidades y expectativas de nuestros clientes y accionistas.',
-  'qual.item2': 'Pleno cumplimiento de todos los requisitos legales y contractuales.',
-  'qual.item3': 'Planificar y mejorar continuamente nuestros procesos y procedimientos.',
-  'qual.item4': 'Garantizar el suministro adecuado de materiales y recursos tecnológicos.',
-  'qual.item5': 'Seleccionar y evaluar continuamente a nuestros proveedores bajo estándares de calidad.',
-  'qual.item6': 'Evaluar el desempeño de manera sistemática y proponer acciones de mejora concretas.',
-
-  /* Nosotros — Differentiators */
-  'diff.label': 'Factores Clave',
-  'diff.title': 'Lo Que Nos Distingue',
-  'diff.desc':
-    'Factores que posicionan a Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp como el socio estratégico de confianza para los sectores industrial y energético.',
-  'diff.cert-title': 'Certificación ASME y ASTM',
-  'diff.cert-desc':
-    'Ingeniería y fabricación que cumplen con normas internacionales para recipientes a presión, calderas y materiales industriales.',
-  'diff.intl-title': 'Sede en EE. UU.',
-  'diff.intl-desc':
-    'Incorporada en Wyoming con EIN de EE. UU., operando bajo marcos legales y financieros norteamericanos para proyectos internacionales.',
-  'diff.intgr-title': 'Soluciones Integradas',
-  'diff.intgr-desc':
-    'Metalmecánica, tratamiento químico y componentes eléctricos en un solo proveedor — reduciendo la complejidad de la gestión de contratistas.',
-  'diff.elec-title': 'Infraestructura Eléctrica',
-  'diff.elec-desc':
-    'Suministro especializado de componentes para transformadores y aceites eléctricos para empresas de servicios e instalaciones industriales en todo el mundo.',
+  /* Nosotros — Why it matters */
+  'why.label': 'Por Qué Importa',
+  'why.title': 'Por Qué Esto Importa <span style="color:var(--red);">para Estados Unidos</span>',
+  'why.desc': 'Fortaleciendo la resiliencia industrial y la independencia energética.',
+  'why.w1-title': 'Fortaleza Manufacturera',
+  'why.w1-desc': 'Asegura insumos críticos para la producción estadounidense de semiconductores, aeroespacial y defensa.',
+  'why.w2-title': 'Resiliencia de la Cadena de Suministro',
+  'why.w2-desc': 'Reduce la dependencia de material procesado en China para minerales estratégicos.',
+  'why.w3-title': 'Ventaja Regional',
+  'why.w3-desc': 'Aprovecha la cercanía de Venezuela para una cadena logística más corta y segura.',
+  'why.w4-title': 'Alianza entre Dos Naciones',
+  'why.w4-desc': 'Una empresa estadounidense que trabaja de la mano con productores venezolanos, combinando estándares estadounidenses con experiencia regional.',
 
   /* Certifications (shared: index + nosotros) */
   'cert.label': 'Garantía de Calidad',
@@ -224,7 +210,7 @@ export const es: Record<TranslationKey, string> = {
   'svc.chem.label': 'Sección 03',
   'svc.chem.title': 'Servicios Químicos y Metalmecánicos',
   'svc.chem.sub':
-    'Programas especializados de tratamiento químico para aplicaciones upstream, downstream, de calderas y aguas de proceso.',
+    'Formulaciones químicas propias &mdash; demulsificantes, inhibidores de corrosión, anti-incrustantes y programas de tratamiento de agua &mdash; probadas en campo durante más de 14 años en refinerías venezolanas e internacionales, para aplicaciones upstream, downstream, de calderas y aguas de proceso.',
   'svc.chem.s1-title': 'Suministro y Aplicación',
   'svc.chem.s1-desc':
     'Suministro y aplicación de tratamientos para corrientes de crudo y refinación, incluyendo sistemas de inyección automatizados para dosificación continua y confiable en operaciones de producción y refinación.',
@@ -295,4 +281,80 @@ export const es: Record<TranslationKey, string> = {
   'ctc.card-web-val': 'silas7.com',
   'ctc.response-title': 'Respuesta Garantizada en 24h',
   'ctc.response-desc': 'Nuestro equipo responde consultas técnicas dentro de las 24 horas hábiles.',
+
+  /* Management page */
+  'mgmt.breadcrumb': 'Gerencia',
+  'mgmt.ph-title': '<span style="color:var(--blue);">Gerencia</span>',
+  'mgmt.ph-desc': 'Conozca al equipo directivo que guía a Silas Seve7n Holdings Corp.',
+
+  /* Operations page */
+  'ops.breadcrumb': 'Operaciones',
+  'ops.ph-title': '<span style="color:var(--blue);">Operaciones</span>',
+  'ops.ph-desc': 'Cómo operamos para servir a los sectores industrial y energético.',
+
+  /* Home — stats */
+  'stats.agreements': 'Acuerdos con productores en Venezuela',
+  'stats.years': 'Años de experiencia en campo',
+  'stats.projects': 'Proyectos completados en el sector energético',
+  'stats.minerals': 'Minerales estratégicos en foco',
+
+  /* Home — opportunity */
+  'opp.label': 'La Oportunidad',
+  'opp.title': 'Redirigiendo los Minerales Críticos <span style="color:var(--red);">Hacia la Industria Estadounidense</span>',
+  'opp.body': 'Una parte significativa de los minerales críticos de Venezuela &mdash; incluidos el coltán, el tantalio y el niobio &mdash; se exporta actualmente a China, donde se procesa, ensambla y revende como producto terminado chino. Dada la cercanía geográfica de Venezuela con Estados Unidos y sus importantes reservas minerales sin explotar, una relación comercial directa y conforme a la normativa entre ambos países representa una oportunidad estratégica para la industria estadounidense.',
+  'opp.today-label': 'Hoy',
+  'opp.today': 'La materia prima fluye hacia China para su procesamiento y recomercialización.',
+  'opp.tomorrow-label': 'Mañana',
+  'opp.tomorrow': 'Un canal directo y transparente Venezuela &rarr; EE. UU. que impulsa la manufactura nacional.',
+
+  /* Strategic minerals (index + servicios) */
+  'min.label': 'Minerales Estratégicos',
+  'min.title': 'Los Minerales que Impulsan <span style="color:var(--red);">el Futuro de Estados Unidos</span>',
+  'min.desc': 'Más allá del petróleo y el gas &mdash; nos enfocamos en los minerales críticos de los que dependen las industrias tecnológica, energética y de defensa de EE. UU.',
+  'min.coltan-title': 'Coltán',
+  'min.coltan-desc': 'Mineral de columbita-tantalita, la principal materia prima para la extracción de tantalio.',
+  'min.tantalum-title': 'Tantalio',
+  'min.tantalum-desc': 'Condensadores, semiconductores y componentes aeroespaciales y de defensa.',
+  'min.niobium-title': 'Niobio',
+  'min.niobium-desc': 'Aleaciones de acero de alta resistencia, motores a reacción y componentes para vehículos eléctricos.',
+  'min.apps-title': 'Áreas de Aplicación',
+  'min.app1': 'Semiconductores y Electrónica',
+  'min.app2': 'Energía Limpia y Vehículos Eléctricos',
+  'min.app3': 'Manufactura Avanzada',
+  'min.app4': 'Aeroespacial y Defensa',
+  'min.why-title': 'Por Qué Importa para la Resiliencia de la Cadena de Suministro de EE. UU.',
+  'min.why-body': 'Estos minerales son insumos esenciales para la manufactura estadounidense de semiconductores, defensa, aeroespacial y vehículos eléctricos &mdash; sectores que hoy dependen de importaciones procesadas en China.',
+
+  /* Home — quote */
+  'quote.text': 'Conectamos el mineral con la planta &mdash; combinando abastecimiento, estructuración, química y cumplimiento normativo bajo un mismo techo.',
+
+  /* Operations — value chain & compliance */
+  'ops.chain-label': 'Cadena de Valor Integral',
+  'ops.chain-title': 'De la Mina a la <span style="color:var(--red);">Manufactura en EE. UU.</span>',
+  'ops.chain-desc': 'Cinco etapas integradas que llevan los minerales críticos desde productores venezolanos verificados hasta la industria estadounidense.',
+  'ops.step1-title': 'Origen',
+  'ops.step1-desc': 'Productores venezolanos verificados de coltán, tantalio y niobio.',
+  'ops.step2-title': 'Estructuración',
+  'ops.step2-desc': 'Contratos de compra (offtake), precios, coberturas y documentación.',
+  'ops.step3-title': 'Soporte al Proceso',
+  'ops.step3-desc': 'Soporte químico y de ingeniería para la materia prima y su procesamiento.',
+  'ops.step4-title': 'Exportación',
+  'ops.step4-desc': 'Coordinación portuaria, transporte multimodal y aduanas.',
+  'ops.step5-title': 'Entrega',
+  'ops.step5-desc': 'Fundiciones, compradores industriales y fabricantes en EE. UU.',
+  'ops.chain-note': 'La experiencia química y de ingeniería de Silas Seve<span style="color:#bd0016;">7</span>n fortalece la calidad y la confiabilidad en las etapas de abastecimiento y procesamiento de la cadena.',
+  'ops.comp-label': 'Cumplimiento y Estándares',
+  'ops.comp-title': 'Plena Alineación con los <span style="color:var(--red);">Requisitos Federales de EE. UU.</span>',
+  'ops.comp-intro': 'Cada transacción se estructura para operar en total conformidad con las sanciones de EE. UU. administradas por la Oficina de Control de Activos Extranjeros (OFAC), las regulaciones aplicables de control de exportaciones y aduanas, la ley anticorrupción (FCPA) y los requisitos de transparencia de la cadena de suministro.',
+  'ops.c1-title': 'OFAC y Sanciones',
+  'ops.c1-desc': 'Verificación y estructuración alineadas con las directrices vigentes de la OFAC.',
+  'ops.c2-title': 'Comercio y Aduanas',
+  'ops.c2-desc': 'Pleno cumplimiento de los procedimientos de importación, exportación y aduanas de EE. UU.',
+  'ops.c3-title': 'ASME / ASTM',
+  'ops.c3-desc': 'Normas de ingeniería y materiales para equipos y ensayos químicos.',
+  'ops.c4-title': 'Anticorrupción',
+  'ops.c4-desc': 'Debida diligencia y transparencia en cada relación con productores.',
+
+  /* Servicios — minerals link */
+  'svc.minerals.ops-link': 'Vea cómo operamos',
 };

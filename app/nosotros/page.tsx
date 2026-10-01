@@ -37,6 +37,8 @@ export default function NosotrosPage() {
               <T k="nav.home" />
             </Link>
             <span>/</span>
+            <T as="span" k="nav.company" />
+            <span>/</span>
             <T as="span" k="nos.breadcrumb" />
           </div>
           <T as="h1" k="nos.ph-title" />
@@ -112,44 +114,47 @@ export default function NosotrosPage() {
         </div>
       </section>
 
-      {/* Quality Policy */}
+      {/* Why this matters for America */}
       <section className="section" style={{ background: 'var(--off-white)' }}>
         <div className="container">
           <div className="section-header">
-            <T as="div" className="section-label" k="qual.label" />
-            <T as="h2" className="section-title on-light" k="qual.title" />
-            <T as="p" className="section-desc on-light" k="qual.desc" />
-          </div>
-
-          <FadeUp className="quality-grid">
-            {(['qual.item1', 'qual.item2', 'qual.item3', 'qual.item4', 'qual.item5', 'qual.item6'] as const).map((key) => (
-              <div className="quality-item" key={key}>
-                <div className="quality-check">{CHECK_ICON}</div>
-                <T as="p" k={key} />
-              </div>
-            ))}
-          </FadeUp>
-        </div>
-      </section>
-
-      {/* Differentiators */}
-      <section className="section diff-dark-section" style={{ background: 'var(--dark)' }}>
-        <div className="container">
-          <div className="section-header">
-            <T as="div" className="section-label" k="diff.label" />
-            <T as="h2" className="section-title on-dark" k="diff.title" />
-            <T as="p" className="section-desc on-dark" k="diff.desc" />
+            <T as="div" className="section-label" k="why.label" />
+            <T as="h2" className="section-title on-light" k="why.title" />
+            <T as="p" className="section-desc on-light" k="why.desc" />
           </div>
 
           <FadeUp className="diff-grid">
             <div className="diff-card">
               <div className="diff-card-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" />
+                  <path d="M17 18h1M12 18h1M7 18h1" />
                 </svg>
               </div>
-              <T as="h4" k="diff.cert-title" />
-              <T as="p" k="diff.cert-desc" />
+              <T as="h4" k="why.w1-title" />
+              <T as="p" k="why.w1-desc" />
+            </div>
+
+            <div className="diff-card">
+              <div className="diff-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M23 6l-9.5 9.5-5-5L1 18" />
+                  <path d="M17 6h6v6" />
+                </svg>
+              </div>
+              <T as="h4" k="why.w2-title" />
+              <T as="p" k="why.w2-desc" />
+            </div>
+
+            <div className="diff-card">
+              <div className="diff-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <T as="h4" k="why.w3-title" />
+              <T as="p" k="why.w3-desc" />
             </div>
 
             <div className="diff-card">
@@ -160,29 +165,8 @@ export default function NosotrosPage() {
                   <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                 </svg>
               </div>
-              <T as="h4" k="diff.intl-title" />
-              <T as="p" k="diff.intl-desc" />
-            </div>
-
-            <div className="diff-card">
-              <div className="diff-card-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <rect x={2} y={3} width={20} height={14} rx={2} />
-                  <path d="M8 21h8M12 17v4" />
-                </svg>
-              </div>
-              <T as="h4" k="diff.intgr-title" />
-              <T as="p" k="diff.intgr-desc" />
-            </div>
-
-            <div className="diff-card">
-              <div className="diff-card-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                </svg>
-              </div>
-              <T as="h4" k="diff.elec-title" />
-              <T as="p" k="diff.elec-desc" />
+              <T as="h4" k="why.w4-title" />
+              <T as="p" k="why.w4-desc" />
             </div>
           </FadeUp>
         </div>

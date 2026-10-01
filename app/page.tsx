@@ -5,6 +5,61 @@ import HeroParticles from '@/components/HeroParticles';
 import FadeUp from '@/components/FadeUp';
 import T from '@/components/T';
 import AboutPhoto from '@/components/AboutPhoto';
+import MineralCards from '@/components/MineralCards';
+
+const STATS = [
+  { value: '20+', key: 'stats.agreements' },
+  { value: '14+', key: 'stats.years' },
+  { value: '30+', key: 'stats.projects' },
+  { value: '3', key: 'stats.minerals' },
+] as const;
+
+const iconProps = {
+  viewBox: '0 0 24 24',
+  fill: 'none',
+  stroke: 'currentColor',
+  strokeWidth: 2,
+  strokeLinecap: 'round',
+  strokeLinejoin: 'round',
+} as const;
+
+const APPLICATIONS = [
+  {
+    key: 'min.app1',
+    icon: (
+      <svg {...iconProps}>
+        <rect x={4} y={4} width={16} height={16} rx={2} />
+        <rect x={9} y={9} width={6} height={6} />
+        <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3" />
+      </svg>
+    ),
+  },
+  {
+    key: 'min.app2',
+    icon: (
+      <svg {...iconProps}>
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+      </svg>
+    ),
+  },
+  {
+    key: 'min.app3',
+    icon: (
+      <svg {...iconProps}>
+        <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" />
+        <path d="M17 18h1M12 18h1M7 18h1" />
+      </svg>
+    ),
+  },
+  {
+    key: 'min.app4',
+    icon: (
+      <svg {...iconProps}>
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+    ),
+  },
+] as const;
 
 export default function HomePage() {
   return (
@@ -56,6 +111,46 @@ export default function HomePage() {
               <T as="h4" k="hero.cert3-title" />
               <T as="p" k="hero.cert3-desc" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Track record */}
+      <section className="numbers-section">
+        <div className="container">
+          <div className="numbers-grid">
+            {STATS.map((stat) => (
+              <div className="number-item" key={stat.key}>
+                <span className="number-value">{stat.value}</span>
+                <T as="span" className="number-label" k={stat.key} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The opportunity */}
+      <section className="opportunity-section section">
+        <div className="container">
+          <div className="opportunity-grid">
+            <FadeUp>
+              <div className="section-header-left">
+                <T as="div" className="section-label" k="opp.label" />
+                <T as="h2" className="section-title on-light" k="opp.title" />
+                <T as="p" className="section-desc on-light" k="opp.body" />
+              </div>
+            </FadeUp>
+
+            <FadeUp className="shift-box" delay={0.15}>
+              <div className="shift-row">
+                <T as="strong" k="opp.today-label" />
+                <T as="p" k="opp.today" />
+              </div>
+              <div className="shift-row next">
+                <T as="strong" k="opp.tomorrow-label" />
+                <T as="p" k="opp.tomorrow" />
+              </div>
+            </FadeUp>
           </div>
         </div>
       </section>
@@ -185,6 +280,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Strategic minerals focus */}
+      <section className="section" style={{ background: 'var(--white)' }}>
+        <div className="container">
+          <div className="section-header">
+            <T as="div" className="section-label" k="min.label" />
+            <T as="h2" className="section-title on-light" k="min.title" />
+            <T as="p" className="section-desc on-light" k="min.desc" />
+          </div>
+
+          <MineralCards />
+
+          <div className="minerals-bottom">
+            <FadeUp>
+              <T as="h3" className="app-areas-title" k="min.apps-title" />
+              <div className="app-areas">
+                {APPLICATIONS.map((app) => (
+                  <div className="app-area" key={app.key}>
+                    <div className="app-area-icon">{app.icon}</div>
+                    <T as="span" k={app.key} />
+                  </div>
+                ))}
+              </div>
+            </FadeUp>
+
+            <FadeUp className="why-box" delay={0.15}>
+              <T as="h4" k="min.why-title" />
+              <T as="p" k="min.why-body" />
+            </FadeUp>
+          </div>
+        </div>
+      </section>
+
       {/* About teaser */}
       <section className="about-section section">
         <div className="container">
@@ -239,6 +366,15 @@ export default function HomePage() {
               </Link>
             </FadeUp>
           </div>
+        </div>
+      </section>
+
+      {/* Quote */}
+      <section className="quote-band">
+        <div className="container">
+          <FadeUp as="blockquote">
+            <T k="quote.text" />
+          </FadeUp>
         </div>
       </section>
 

@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FadeUp from '@/components/FadeUp';
 import T from '@/components/T';
+import MineralCards from '@/components/MineralCards';
 
 const TITLE = 'Servicios';
 const FULL_TITLE = 'Servicios — Silas Seve7n Holdings Corp';
@@ -114,6 +115,15 @@ export default function ServiciosPage() {
               </div>
             </div>
           </FadeUp>
+
+          <MineralCards />
+
+          <Link href="/operaciones" className="service-link">
+            <T as="span" k="svc.minerals.ops-link" />
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </Link>
         </div>
       </section>
 
