@@ -289,12 +289,6 @@ export const en = {
   'ops.ph-title': '<span style="color:var(--blue);">Operations</span>',
   'ops.ph-desc': 'How we operate to serve the industrial and energy sectors.',
 
-  /* Home — stats */
-  'stats.agreements': 'Producer agreements in Venezuela',
-  'stats.years': 'Years of industry field experience',
-  'stats.projects': 'Projects completed in the energy sector',
-  'stats.minerals': 'Strategic minerals in focus',
-
   /* Home — opportunity */
   'opp.label': 'The Opportunity',
   'opp.title': 'Redirecting Critical Minerals <span style="color:var(--red);">Toward American Industry</span>',

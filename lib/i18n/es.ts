@@ -292,12 +292,6 @@ export const es: Record<TranslationKey, string> = {
   'ops.ph-title': '<span style="color:var(--blue);">Operaciones</span>',
   'ops.ph-desc': 'Cómo operamos para servir a los sectores industrial y energético.',
 
-  /* Home — stats */
-  'stats.agreements': 'Acuerdos con productores en Venezuela',
-  'stats.years': 'Años de experiencia en campo',
-  'stats.projects': 'Proyectos completados en el sector energético',
-  'stats.minerals': 'Minerales estratégicos en foco',
-
   /* Home — opportunity */
   'opp.label': 'La Oportunidad',
   'opp.title': 'Redirigiendo los Minerales Críticos <span style="color:var(--red);">Hacia la Industria Estadounidense</span>',

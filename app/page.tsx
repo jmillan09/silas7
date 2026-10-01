@@ -7,13 +7,6 @@ import T from '@/components/T';
 import AboutPhoto from '@/components/AboutPhoto';
 import MineralCards from '@/components/MineralCards';
 
-const STATS = [
-  { value: '20+', key: 'stats.agreements' },
-  { value: '14+', key: 'stats.years' },
-  { value: '30+', key: 'stats.projects' },
-  { value: '3', key: 'stats.minerals' },
-] as const;
-
 const iconProps = {
   viewBox: '0 0 24 24',
   fill: 'none',
@@ -111,20 +104,6 @@ export default function HomePage() {
               <T as="h4" k="hero.cert3-title" />
               <T as="p" k="hero.cert3-desc" />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Track record */}
-      <section className="numbers-section">
-        <div className="container">
-          <div className="numbers-grid">
-            {STATS.map((stat) => (
-              <div className="number-item" key={stat.key}>
-                <span className="number-value">{stat.value}</span>
-                <T as="span" className="number-label" k={stat.key} />
-              </div>
-            ))}
           </div>
         </div>
       </section>
