@@ -29,7 +29,7 @@ export const es: Record<TranslationKey, string> = {
 
   /* Index — Hero */
   'hero.desc':
-    'Silas Seve7n Holdings Corp. conecta a productores venezolanos calificados de minerales críticos con fabricantes y usuarios finales en Estados Unidos. Desarrollamos cadenas de suministro seguras, transparentes y conformes a la normativa para materiales esenciales para la industria estadounidense.',
+    'Silas Seve7n Holdings Corp. conecta a productores venezolanos calificados de minerales críticos, con fabricantes y usuarios finales en Estados Unidos. Desarrollamos cadenas de suministro seguras, transparentes y conformes a la normativa para materiales esenciales en la industria estadounidense.',
   'hero.btn-services': 'Ver Servicios',
   'hero.btn-proposal': 'Solicitar Propuesta',
   'hero.cert1-badge': 'Certificación Internacional',
@@ -108,7 +108,7 @@ export const es: Record<TranslationKey, string> = {
     'Identificamos y estructuramos oportunidades entre productores minerales calificados y compradores, fabricantes y socios industriales establecidos en Estados Unidos.',
   'nos.ic2-title': 'Cadenas de Suministro Seguras y Conformes',
   'nos.ic2-desc':
-    'Cada oportunidad se desarrolla con un enfoque en la transparencia, el abastecimiento responsable y el cumplimiento de las leyes, sanciones y regulaciones comerciales de EE. UU. aplicables, así como de los requisitos de licencias de la OFAC.',
+    'Cada oportunidad se desarrolla con un enfoque en la transparencia, el abastecimiento responsable y el cumplimiento de las leyes, normativas y regulaciones comerciales de EE. UU. aplicables, así como de los requisitos de licencias de la OFAC.',
 
   /* Nosotros — Mission / Vision */
   'mv.label': 'Nuestro Propósito',
@@ -327,7 +327,7 @@ export const es: Record<TranslationKey, string> = {
   'ops.chain-title': 'De la Mina a la <span style="color:var(--red);">Manufactura en EE. UU.</span>',
   'ops.chain-desc': 'Cinco etapas integradas que llevan los minerales críticos desde productores venezolanos verificados hasta la industria estadounidense.',
   'ops.step1-title': 'Origen',
-  'ops.step1-desc': 'Productores venezolanos verificados de coltán, tantalio y niobio.',
+  'ops.step1-desc': 'Productores venezolanos verificados de tierras raras o minerales como el coltán, el tantalio, el niobio, entre otros, así como sus derivados...',
   'ops.step2-title': 'Estructuración',
   'ops.step2-desc': 'Contratos de compra (offtake), precios, coberturas y documentación.',
   'ops.step3-title': 'Soporte al Proceso',
@@ -339,8 +339,8 @@ export const es: Record<TranslationKey, string> = {
   'ops.chain-note': 'La experiencia química y de ingeniería de Silas Seve<span style="color:#bd0016;">7</span>n fortalece la calidad y la confiabilidad en las etapas de abastecimiento y procesamiento de la cadena.',
   'ops.comp-label': 'Cumplimiento y Estándares',
   'ops.comp-title': 'Plena Alineación con los <span style="color:var(--red);">Requisitos Federales de EE. UU.</span>',
-  'ops.comp-intro': 'Cada transacción se estructura para operar en total conformidad con las sanciones de EE. UU. administradas por la Oficina de Control de Activos Extranjeros (OFAC), las regulaciones aplicables de control de exportaciones y aduanas, la ley anticorrupción (FCPA) y los requisitos de transparencia de la cadena de suministro.',
-  'ops.c1-title': 'OFAC y Sanciones',
+  'ops.comp-intro': 'Cada transacción se estructura para operar en total conformidad con las normativas de EE. UU. administradas por la Oficina de Control de Activos Extranjeros (OFAC), las regulaciones aplicables de control de exportaciones y aduanas, la ley anticorrupción (FCPA) y los requisitos de transparencia de la cadena de suministro.',
+  'ops.c1-title': 'OFAC y Normativas de EE. UU.',
   'ops.c1-desc': 'Verificación y estructuración alineadas con las directrices vigentes de la OFAC.',
   'ops.c2-title': 'Comercio y Aduanas',
   'ops.c2-desc': 'Pleno cumplimiento de los procedimientos de importación, exportación y aduanas de EE. UU.',

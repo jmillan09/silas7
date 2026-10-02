@@ -106,7 +106,7 @@ export const en = {
     'We identify and structure opportunities between qualified mineral producers and established U.S. buyers, manufacturers, and industrial partners.',
   'nos.ic2-title': 'Secure and Compliant Supply Chains',
   'nos.ic2-desc':
-    'Every opportunity is developed with a focus on transparency, responsible sourcing, and compliance with applicable U.S. laws, sanctions, trade regulations, and OFAC licensing requirements.',
+    'Every opportunity is developed with a focus on transparency, responsible sourcing, and compliance with applicable U.S. laws, regulations, trade rules, and OFAC licensing requirements.',
 
   /* Nosotros — Mission / Vision */
   'mv.label': 'Our Purpose',
@@ -324,7 +324,7 @@ export const en = {
   'ops.chain-title': 'From the Mine to the <span style="color:var(--red);">U.S. Manufacturing Floor</span>',
   'ops.chain-desc': 'Five integrated stages that take critical minerals from verified Venezuelan producers to American industry.',
   'ops.step1-title': 'Source',
-  'ops.step1-desc': 'Verified Venezuelan producers of coltan, tantalum, and niobium.',
+  'ops.step1-desc': 'Verified Venezuelan producers of rare-earth elements and minerals such as coltan, tantalum, and niobium, among others, as well as their derivatives.',
   'ops.step2-title': 'Structure',
   'ops.step2-desc': 'Offtake agreements, pricing, hedging, and documentation.',
   'ops.step3-title': 'Process Support',
@@ -336,8 +336,8 @@ export const en = {
   'ops.chain-note': 'Silas Seve<span style="color:#bd0016;">7</span>n&rsquo;s chemical and engineering expertise strengthens quality and reliability across the sourcing and processing stages of the chain.',
   'ops.comp-label': 'Compliance &amp; Standards',
   'ops.comp-title': 'Full Alignment with <span style="color:var(--red);">U.S. Federal Requirements</span>',
-  'ops.comp-intro': 'Every transaction is structured to operate in full accordance with U.S. sanctions administered by the Office of Foreign Assets Control (OFAC), applicable export control and customs regulations, anti-corruption law (FCPA), and supply chain transparency requirements.',
-  'ops.c1-title': 'OFAC &amp; Sanctions',
+  'ops.comp-intro': 'Every transaction is structured to operate in full accordance with U.S. regulations administered by the Office of Foreign Assets Control (OFAC), applicable export control and customs regulations, anti-corruption law (FCPA), and supply chain transparency requirements.',
+  'ops.c1-title': 'OFAC &amp; U.S. Regulations',
   'ops.c1-desc': 'Screening and structuring aligned with current OFAC guidance.',
   'ops.c2-title': 'Trade &amp; Customs',
   'ops.c2-desc': 'Full compliance with U.S. import/export and customs procedures.',
