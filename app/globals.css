@@ -2523,7 +2523,12 @@ select.form-control {
   .section { padding: 72px 0; }
   .section-sm { padding: 50px 0; }
 
+  .nav-container { gap: 16px; }
+
   .nav-logo { order: 1; flex: 1; }
+
+  /* Language switch sits just left of the hamburger */
+  .lang-toggle { order: 2; }
 
   .nav-toggle {
     display: flex;
