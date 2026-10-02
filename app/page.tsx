@@ -64,7 +64,7 @@ export default function HomePage() {
         <HeroParticles />
         <div
           className="hero-bg"
-          style={{ backgroundImage: "url('/Images/hero-industrial.jpg')", backgroundColor: '#1e3a55' }}
+          style={{ backgroundImage: "url('/Images/mineria/min1.jpeg')", backgroundColor: '#1e3a55' }}
         />
         <div className="hero-overlay" />
 
@@ -149,7 +149,7 @@ export default function HomePage() {
                 className="service-card-img"
                 style={{
                   background: 'var(--navy)',
-                  backgroundImage: "url('/Images/industrias/oil-industry.jpg')",
+                  backgroundImage: "url('/Images/mineria/web/maquinaria.jpg')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}
@@ -296,7 +296,7 @@ export default function HomePage() {
         <div className="container">
           <div className="about-grid">
             <FadeUp className="about-image-col">
-              <AboutPhoto src="/Images/trabajadores/gm1.png" alt="Silas Seve7n Holdings Corp — Industrial Engineering" />
+              <AboutPhoto src="/Images/mineria/web/trabajador.jpg" alt="Silas Seve7n Holdings Corp — Field operations" />
             </FadeUp>
 
             <FadeUp className="about-content" delay={0.15}>

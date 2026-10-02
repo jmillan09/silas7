@@ -44,3 +44,8 @@ next-env.d.ts
 
 # Confidential source documents
 Strategic_Critical_Minerals_Initiative.pdf
+
+# Full-size originals; the site uses the optimized copies in public/Images/mineria/web
+public/Images/mineria/*
+!public/Images/mineria/min1.jpeg
+!public/Images/mineria/web/

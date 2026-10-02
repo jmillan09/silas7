@@ -361,7 +361,6 @@ button {
   border: none;
   cursor: pointer;
   font-family: inherit;
-  text-transform: uppercase;
 }
 
 .nav-dropdown-caret {
@@ -469,16 +468,18 @@ button {
   inset: 0;
   background-size: cover;
   background-position: center 30%;
-  opacity: 0.18;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(105deg,
-      rgba(30, 58, 85, 0.96) 0%,
-      rgba(30, 58, 85, 0.80) 50%,
-      rgba(30, 58, 85, 0.45) 100%);
+  /* Neutral shadow, darker behind the text column, so the photo keeps its colours */
+  background:
+    linear-gradient(105deg,
+      rgba(0, 0, 0, 0.72) 0%,
+      rgba(0, 0, 0, 0.45) 50%,
+      rgba(0, 0, 0, 0.20) 100%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.45) 0%, transparent 35%);
 }
 
 .hero-particles {
@@ -609,7 +610,7 @@ button {
 }
 
 .hero-cert-card {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(10, 18, 28, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-lg);
   padding: 26px 28px;
@@ -2854,9 +2855,31 @@ select.form-control {
 }
 
 /* ── Strategic minerals (index + servicios) ── */
-.mineral-icon {
-  color: var(--red);
-  background: rgba(189, 0, 22, 0.08);
+.mineral-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.mineral-card-media {
+  height: 180px;
+  background: var(--dark);
+  overflow: hidden;
+  border-bottom: 3px solid var(--red);
+}
+
+.mineral-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.mineral-card:hover .mineral-card-media img {
+  transform: scale(1.05);
+}
+
+.mineral-card-body {
+  padding: 24px;
 }
 
 .minerals-bottom {
@@ -2964,6 +2987,25 @@ select.form-control {
 }
 
 /* ── Value chain (operaciones) ── */
+.chain-section {
+  position: relative;
+  background-color: var(--dark);
+  /* Neutral shadow (no blue tint), heavier at the top behind the heading */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0.52) 45%, rgba(0, 0, 0, 0.62) 100%),
+    url('/Images/mineria/web/planta-aerea.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.chain-section .section-header {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+}
+
+.chain-section .section-desc.on-dark {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 .chain-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -3045,7 +3087,8 @@ select.form-control {
   text-align: center;
   font-style: italic;
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
   line-height: 1.7;
 }
 

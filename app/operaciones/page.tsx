@@ -139,7 +139,7 @@ export default function OperacionesPage() {
       </section>
 
       {/* End-to-end value chain */}
-      <section className="section" id="value-chain" style={{ background: 'var(--dark)' }}>
+      <section className="section chain-section" id="value-chain">
         <div className="container">
           <div className="section-header">
             <T as="div" className="section-label" k="ops.chain-label" />

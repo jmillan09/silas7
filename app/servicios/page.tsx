@@ -86,9 +86,9 @@ export default function ServiciosPage() {
 
           <FadeUp className="section-banner-img" style={bannerStyle}>
             <img
-              src="/Images/industrias/oil-industry.jpg"
+              src="/Images/mineria/web/excavadora.jpg"
               alt="Suministro y transporte de minerales críticos y tierras raras"
-              style={bannerImgStyle}
+              style={{ ...bannerImgStyle, objectPosition: 'center 78%' }}
             />
           </FadeUp>
 
@@ -219,7 +219,7 @@ export default function ServiciosPage() {
           </div>
 
           <FadeUp className="section-banner-img" style={bannerStyle}>
-            <img src="/Images/quimica/unidad-industrial.png" alt="Servicios químicos industriales" style={bannerImgStyle} />
+            <img src="/Images/trabajadores/trabajador-de-caldera-editado.jpg" alt="Servicios químicos industriales" style={bannerImgStyle} />
           </FadeUp>
 
           <FadeUp as="div" className="hex-grid">
