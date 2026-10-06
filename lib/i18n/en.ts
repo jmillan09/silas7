@@ -14,14 +14,13 @@ export const en = {
 
   /* Footer */
   'footer.desc':
-    'Strategic partner for the industrial and energy sectors. Expert in advanced chemical solutions, precision metalworking, and power transformer components. ASME &amp; ASTM certified.',
+    'U.S. company connecting qualified Venezuelan critical-mineral producers with American industry through secure, transparent, and compliant supply chains.',
   'footer.nav-heading': 'Navigation',
   'footer.svc-heading': 'Services',
   'footer.contact-heading': 'Contact',
   'footer.svc.minerals': 'Critical Minerals',
-  'footer.svc.metal': 'Metalworking',
-  'footer.svc.chem': 'Chemical Treatment',
-  'footer.svc.elec': 'Power Transformer',
+  'footer.svc.chain': 'Value Chain',
+  'footer.svc.compliance': 'Compliance',
   'footer.copyright':
     '&copy; 2025 &mdash; Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. All rights reserved.',
 
@@ -30,69 +29,65 @@ export const en = {
     'Silas Seve7n Holdings Corp. connects qualified Venezuelan critical-mineral producers with U.S. manufacturers and end users. We develop secure, transparent, and compliant supply chains for materials essential to American industry.',
   'hero.btn-services': 'View Services',
   'hero.btn-proposal': 'Request Proposal',
-  'hero.cert1-badge': 'International Certification',
-  'hero.cert1-title': 'ASME &amp; ASTM Standards',
+  'hero.cert1-badge':
+    'U.S. Compliance',
+  'hero.cert1-title':
+    'OFAC, FCPA &amp; Customs',
   'hero.cert1-desc':
-    'Engineering and fabrication solutions complying with the most demanding global safety and quality standards for boilers, pressure vessels and materials.',
+    'Every transaction is structured in full accordance with U.S. regulations, anti-corruption law, and supply chain transparency requirements.',
   'hero.cert2-badge': 'Global Operations',
   'hero.cert2-title': 'Casper, Wyoming &mdash; USA',
   'hero.cert2-desc':
-    'Headquartered in the United States, serving industrial and energy clients across international markets with technical precision.',
+    'Headquartered in the United States, connecting Venezuelan mineral producers with American manufacturers and end users.',
   'hero.cert3-badge': 'Contact Us',
   'hero.cert3-title': 'info@silas7.com',
   'hero.cert3-desc':
-    'We respond to technical inquiries within 24 business hours. Our specialized team is available to advise you on any project.',
+    'We respond to inquiries within 24 business hours. Our team is available to discuss your critical-mineral supply needs.',
 
   /* Index — Services section */
   'idx-svc.label': 'What We Do',
-  'idx-svc.title': 'Our Services',
+  'idx-svc.title':
+    'Our Core Service',
   'idx-svc.desc':
-    'A highly qualified technical team leading the supply and transport of critical minerals and rare earths, alongside comprehensive solutions in metalworking, chemical treatment, and power infrastructure.',
-  'idx-svc.minerals.badge': 'Flagship Service',
+    'Supply and transport of critical minerals and rare earth elements &mdash; from verified Venezuelan producers to U.S. manufacturers and end users.',
+  'idx-svc.minerals.badge':
+    'Coltan &middot; Tantalum &middot; Niobium',
   'idx-svc.minerals.title': 'Critical Minerals &amp; Rare Earths',
   'idx-svc.minerals.desc':
     'End-to-end supply and export logistics for critical minerals and rare earth elements, connecting certified producers with industrial buyers and smelters worldwide.',
   'idx-svc.minerals.link': 'View details',
-  'idx-svc.chem.title': 'Chemical Process Services',
-  'idx-svc.chem.desc':
-    'Upstream/downstream treatments, automated injection systems, boiler water programs, process water biocides, inhibitors and dispersants.',
-  'idx-svc.chem.link': 'View details',
-  'idx-svc.metal.title': 'Metalworking &amp; Chemical Treatment',
-  'idx-svc.metal.desc':
-    'Installation of boilers, fabrication of heat exchangers, re-tubing services, burners and industrial instrumentation under ASME and ASTM standards.',
-  'idx-svc.metal.link': 'View details',
-  'idx-svc.elec.title': 'Power Transformer &amp; Electrical',
-  'idx-svc.elec.desc':
-    'Supply of transformer components including bushings, Buchholz relays, cooling fans, insulation systems and specialized electrical oils.',
-  'idx-svc.elec.link': 'View details',
 
   /* Index — About teaser */
   'about.label': 'Who We Are',
-  'about.title': 'Committed to <span style="color:var(--red);">Engineering Excellence</span>',
+  'about.title':
+    'A Trusted Bridge for <span style="color:var(--red);">Critical Minerals</span>',
   'about.lead':
-    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp is a U.S.-based industrial company delivering high-performance chemical solutions, specialized engineering services, and critical power components to clients across the global energy and process industries.',
-  'about.hl1-title': 'ASME &amp; ASTM Standards',
+    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. is a U.S. company headquartered in Casper, Wyoming, connecting qualified Venezuelan producers of tantalum, niobium, tin, rare-earth elements, and other critical resources with U.S. manufacturers and end users.',
+  'about.hl1-title':
+    'Strategic Critical-Mineral Partnerships',
   'about.hl1-desc':
-    'Engineering and fabrication solutions complying with international boiler, pressure vessel, and materials standards.',
-  'about.hl2-title': 'Comprehensive Water &amp; Fluid Treatment',
+    'We identify and structure opportunities between qualified producers and established U.S. buyers and manufacturers.',
+  'about.hl2-title':
+    'Secure &amp; Compliant Supply Chains',
   'about.hl2-desc':
-    'Global provider of water and process fluid treatment programs designed to maximize asset lifespan and operational efficiency.',
-  'about.hl3-title': 'Power Infrastructure Solutions',
+    'Transparency, responsible sourcing, and full compliance with applicable U.S. laws and OFAC requirements.',
+  'about.hl3-title':
+    'End-to-End Logistics',
   'about.hl3-desc':
-    'Supply of critical transformer components and specialized electrical oils for utilities and industrial facilities worldwide.',
+    'From origin to delivery: offtake structuring, export coordination, and shipment to U.S. industry.',
   'about.btn': 'Learn More About Us',
 
   /* Index — CTA */
   'cta.index.title': 'Ready to Start Your Project?',
   'cta.index.desc':
-    'Our specialized technical team is available to advise you and provide a comprehensive proposal tailored to your operational requirements.',
+    'Our team is ready to discuss your critical-mineral supply requirements and provide a proposal tailored to your needs.',
   'cta.btn-proposal': 'Request Proposal',
 
   /* Nosotros — Page header */
   'nos.breadcrumb': 'Who We Are',
   'nos.ph-title': '<span style="color:var(--blue);">Who</span> We Are',
   'nos.ph-desc':
-    'A U.S.-based industrial company committed to engineering excellence, operational continuity, and international quality standards.',
+    'A U.S. company building secure, transparent, and compliant critical-mineral supply chains between Venezuela and American industry.',
 
   /* Nosotros — About intro */
   'nos.history-label': 'Our Company',
@@ -131,25 +126,10 @@ export const en = {
   'why.w4-title': 'Two-Nation Partnership',
   'why.w4-desc': 'A U.S. company working hand in hand with Venezuelan producers, combining American standards with regional expertise.',
 
-  /* Certifications (shared: index + nosotros) */
-  'cert.label': 'Quality Assurance',
-  'cert.title': 'Our Certifications &amp; Standards',
-  'cert.desc':
-    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp operates under the most stringent international standards to guarantee quality, safety and reliability in every project.',
-  'cert.asme-name': 'ASME',
-  'cert.asme-desc':
-    'Boiler and pressure vessel fabrication standard &mdash; ensuring the highest safety in thermal systems.',
-  'cert.astm-name': 'ASTM',
-  'cert.astm-desc': 'Material and fabrication standards for precision metalworking and structural integrity.',
-  'cert.cov-name': 'COVENIN',
-  'cert.cov-desc': 'Quality and industrial inspection standards for process and manufacturing operations.',
-  'cert.fon-name': 'FONDONORMA',
-  'cert.fon-desc': 'Standardization and quality certification &mdash; RIF J-508213858.',
-
   /* Nosotros — CTA */
   'cta.nos.title': 'Ready to Work with Us?',
   'cta.nos.desc':
-    'Contact our team and discover how we can optimize your industrial operations with tailored, standards-compliant solutions.',
+    'Contact our team and discover how we can support your critical-mineral supply chain.',
   'cta.nos.btn1': 'Contact Us',
   'cta.nos.btn2': 'View Services',
 
@@ -157,16 +137,11 @@ export const en = {
   'svc.breadcrumb': 'Services',
   'svc.ph-title': 'Our <span style="color:var(--blue);">Services</span>',
   'svc.ph-desc':
-    'Comprehensive engineering solutions for the industrial and energy sectors, delivered under the highest international quality and safety standards.',
-
-  /* Servicios — Tabs */
-  'svc.tab.minerals': 'Critical Minerals',
-  'svc.tab.metal': 'Metalworking',
-  'svc.tab.chem': 'Chemical Treatment',
-  'svc.tab.elec': 'Power Transformer',
+    'Connecting verified Venezuelan producers of critical minerals and rare earths with U.S. industry.',
 
   /* Servicios — Critical Minerals & Rare Earths (flagship service) */
-  'svc.minerals.label': 'Section 01',
+  'svc.minerals.label':
+    'Core Service',
   'svc.minerals.title': 'Critical Minerals &amp; Rare Earths Supply and Transport',
   'svc.minerals.sub':
     'End-to-end supply chain for critical minerals and rare earth elements — from origin to industrial buyer, with traceability and regulatory compliance at every stage.',
@@ -180,75 +155,10 @@ export const en = {
   'svc.minerals.s3-desc':
     'Connections with smelters, industrial buyers and qualified traders seeking consistent volume and quality.',
 
-  /* Servicios — Metalworking */
-  'svc.metal.label': 'Section 02',
-  'svc.metal.title': 'Metalworking Services',
-  'svc.metal.sub':
-    'Precision fabrication, installation and maintenance of high-demand industrial thermal equipment.',
-  'svc.metal.s1-title': 'Boiler Installation',
-  'svc.metal.s1-desc':
-    'Complete installation and commissioning of firetube and watertube boilers, including alignment, piping connections, controls and safety systems.',
-  'svc.metal.s2-title': 'Heat Exchanger Fabrication',
-  'svc.metal.s2-desc':
-    'Design and fabrication of shell &amp; tube and fin fan cooler heat exchangers to ASME and ASTM specifications for refinery and process applications.',
-  'svc.metal.s3-title': 'Burners &amp; Combustion',
-  'svc.metal.s3-desc':
-    'Supply, installation and commissioning of industrial burner systems and combustion management for thermal equipment.',
-  'svc.metal.s4-title': 'Industrial Instrumentation',
-  'svc.metal.s4-desc':
-    'Specification, supply and integration of process instrumentation for boiler systems, heat exchangers and thermal process control.',
-  'svc.metal.s5-title': 'Shell &amp; Tube / Fin Fan Re-tubing',
-  'svc.metal.s5-desc':
-    'Complete re-tubing services for shell &amp; tube and fin fan cooler heat exchangers, restoring full thermal performance and extending service life.',
-  'svc.metal.s6-title': 'Boiler Re-tubing',
-  'svc.metal.s6-desc':
-    'Expert boiler re-tubing services for firetube and watertube boilers, complying with ASME standards for welding, inspection and pressure testing.',
-
-  /* Servicios — Chemical */
-  'svc.chem.label': 'Section 03',
-  'svc.chem.title': 'Chemical &amp; Metalworking Services',
-  'svc.chem.sub':
-    'Proprietary chemical formulations &mdash; demulsifiers, corrosion inhibitors, anti-fouling and water treatment programs &mdash; field-proven for 14+ years in Venezuelan and international refineries, covering upstream, downstream, boiler and process water applications.',
-  'svc.chem.s1-title': 'Supply &amp; Application',
-  'svc.chem.s1-desc':
-    'Supply and application of crude and refining stream treatments, including automated injection systems for continuous and reliable dosing in production and refining operations.',
-  'svc.chem.s2-title': 'Up &amp; Down Stream',
-  'svc.chem.s2-desc':
-    'Demulsifiers, antifoams, asphaltene dispersants, anti-scale agents, and wellbore cleaning formulations for upstream and downstream hydrocarbon process streams.',
-  'svc.chem.s3-title': 'Boiler Water Treatment',
-  'svc.chem.s3-desc':
-    'Oxygen scavengers, corrosion inhibitors, steam condensate treatments and boil-out services to maintain efficiency and extend the service life of steam-generating equipment.',
-  'svc.chem.s4-title': 'Process Water Treatment',
-  'svc.chem.s4-desc':
-    'Biocides, scale inhibitors, biodispersants, coagulants and flocculants for cooling towers, process water circuits and industrial effluent management.',
-
-  /* Servicios — Electrical */
-  'svc.elec.label': 'Section 04',
-  'svc.elec.title': 'Power Transformer Components &amp; Electrical Oils',
-  'svc.elec.sub': 'Critical components and specialty fluids for power transformer operations and maintenance.',
-  'svc.elec.s1-title': 'Bushings',
-  'svc.elec.s1-desc':
-    'High-voltage oil-impregnated and resin-bonded bushings for power transformers, meeting IEC and ANSI/IEEE standards for dielectric performance and reliability.',
-  'svc.elec.s2-title': 'Buchholz Relay',
-  'svc.elec.s2-desc':
-    'Gas and surge-detection protective relays for oil-immersed transformers, providing early fault warning and protecting equipment from catastrophic failure.',
-  'svc.elec.s3-title': 'Control &amp; Monitoring Systems',
-  'svc.elec.s3-desc':
-    'SCADA-compatible control systems with thermal imaging, load management and remote monitoring capabilities for transformer protection and operational efficiency.',
-  'svc.elec.s4-title': 'Cooling Fans',
-  'svc.elec.s4-desc':
-    'Forced-air cooling fan assemblies and ONAN/ONAF cooling systems designed to maintain optimal transformer operating temperatures under varying load conditions.',
-  'svc.elec.s5-title': 'Transformer Insulation',
-  'svc.elec.s5-desc':
-    'Kraft paper, pressboard, crepe paper and liquid-impregnated insulation systems engineered for long-term dielectric integrity in power transformer applications.',
-  'svc.elec.s6-title': 'Electrical Oils',
-  'svc.elec.s6-desc':
-    'Naphthenic mineral oils, natural esters and synthetic fluids meeting IEC 60296 and ASTM D3487 specifications for transformer insulation and cooling.',
-
   /* Servicios — CTA */
   'cta.svc.title': 'Need a Consultation or Quote?',
   'cta.svc.desc':
-    'Our team of experts is ready to provide comprehensive solutions tailored to your specific operational and maintenance requirements.',
+    'Our team is ready to prepare a tailored proposal for your critical-mineral and rare-earth supply needs.',
   'cta.svc.btn1': 'Contact Us Today',
 
   /* Contacto — Page header */
@@ -269,7 +179,7 @@ export const en = {
   'ctc.info-label': 'Get in Touch',
   'ctc.info-title': 'We Are Ready<br>to Serve You',
   'ctc.info-lead':
-    'Contact our specialized technical team directly. We are available to advise you and provide a comprehensive proposal tailored to your specific operational requirements.',
+    'Contact our team directly. We are available to advise you and provide a comprehensive proposal tailored to your critical-mineral supply requirements.',
   'ctc.card-addr-lbl': 'Headquarters',
   'ctc.card-addr-val': 'E 2nd St, Ste 7000, Casper, WY',
   'ctc.card-email-lbl': 'Email',
@@ -317,23 +227,22 @@ export const en = {
   'min.why-body': 'These minerals are essential inputs for U.S. semiconductor, defense, aerospace, and EV manufacturing &mdash; sectors currently dependent on imports processed through China.',
 
   /* Home — quote */
-  'quote.text': 'We connect the mineral to the mill &mdash; combining sourcing, structuring, chemistry, and compliance under one roof.',
+  'quote.text':
+    'We connect the mineral to the mill &mdash; combining sourcing, structuring, logistics, and compliance under one roof.',
 
   /* Operations — value chain & compliance */
   'ops.chain-label': 'End-to-End Value Chain',
   'ops.chain-title': 'From the Mine to the <span style="color:var(--red);">U.S. Manufacturing Floor</span>',
-  'ops.chain-desc': 'Five integrated stages that take critical minerals from verified Venezuelan producers to American industry.',
+  'ops.chain-desc':
+    'Four integrated stages that take critical minerals from verified Venezuelan producers to American industry.',
   'ops.step1-title': 'Source',
   'ops.step1-desc': 'Verified Venezuelan producers of rare-earth elements and minerals such as coltan, tantalum, and niobium, among others, as well as their derivatives.',
   'ops.step2-title': 'Structure',
   'ops.step2-desc': 'Offtake agreements, pricing, hedging, and documentation.',
-  'ops.step3-title': 'Process Support',
-  'ops.step3-desc': 'Chemical and engineering support for feedstock and processing.',
   'ops.step4-title': 'Export',
   'ops.step4-desc': 'Port coordination, multimodal freight, and customs.',
   'ops.step5-title': 'Deliver',
   'ops.step5-desc': 'U.S. smelters, industrial buyers, and manufacturers.',
-  'ops.chain-note': 'Silas Seve<span style="color:#bd0016;">7</span>n&rsquo;s chemical and engineering expertise strengthens quality and reliability across the sourcing and processing stages of the chain.',
   'ops.comp-label': 'Compliance &amp; Standards',
   'ops.comp-title': 'Full Alignment with <span style="color:var(--red);">U.S. Federal Requirements</span>',
   'ops.comp-intro': 'Every transaction is structured to operate in full accordance with U.S. regulations administered by the Office of Foreign Assets Control (OFAC), applicable export control and customs regulations, anti-corruption law (FCPA), and supply chain transparency requirements.',
@@ -341,8 +250,6 @@ export const en = {
   'ops.c1-desc': 'Screening and structuring aligned with current OFAC guidance.',
   'ops.c2-title': 'Trade &amp; Customs',
   'ops.c2-desc': 'Full compliance with U.S. import/export and customs procedures.',
-  'ops.c3-title': 'ASME / ASTM',
-  'ops.c3-desc': 'Engineering and materials standards for equipment and chemical testing.',
   'ops.c4-title': 'Anti-Corruption',
   'ops.c4-desc': 'Due diligence and transparency across every producer relationship.',
 

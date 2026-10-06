@@ -3013,7 +3013,7 @@ select.form-control {
 
 .chain-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
@@ -3134,7 +3134,7 @@ select.form-control {
 }
 
 @media (max-width: 1200px) {
-  .chain-grid { grid-template-columns: repeat(3, 1fr); }
+  .chain-grid { grid-template-columns: repeat(2, 1fr); }
   .chain-step:not(:last-child)::after { display: none; }
 }
 
@@ -3155,4 +3155,40 @@ select.form-control {
 
 @media (max-width: 480px) {
   .chain-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Single core-service card (index) ── */
+.service-card-wide {
+  flex-direction: row;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.service-card-wide .service-card-img {
+  flex: 1.1;
+  height: auto;
+  min-height: 340px;
+}
+
+.service-card-wide .service-card-body {
+  flex: 1;
+  justify-content: center;
+  padding: 44px 40px;
+}
+
+.service-card-wide .service-card-body p {
+  flex: 0;
+}
+
+@media (max-width: 768px) {
+  .service-card-wide { flex-direction: column; }
+  .service-card-wide .service-card-img { min-height: 220px; }
+  .service-card-wide .service-card-body { padding: 28px 24px 32px; }
+}
+
+/* 3-card variant (operaciones compliance) */
+.diff-grid.diff-grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+@media (max-width: 1024px) {
+  .diff-grid.diff-grid-3 { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; }
 }

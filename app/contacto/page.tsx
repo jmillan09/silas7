@@ -8,7 +8,7 @@ import T from '@/components/T';
 const TITLE = 'Contacto';
 const FULL_TITLE = 'Contacto — Silas Seve7n Holdings Corp';
 const DESCRIPTION =
-  'Contacto — Silas Seve7n Holdings Corp (SSHC). Comuníquese con nuestro equipo técnico especializado para asesoramiento y propuestas de proyectos industriales. Sede en Casper, Wyoming, EE. UU.';
+  'Contacto — Silas Seve7n Holdings Corp (SSHC). Comuníquese con nuestro equipo para asesoramiento y propuestas de suministro de minerales críticos y tierras raras. Sede en Casper, Wyoming, EE. UU.';
 
 export const metadata: Metadata = {
   title: TITLE,

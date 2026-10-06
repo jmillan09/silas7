@@ -5,9 +5,9 @@ import './globals.css';
 
 const SITE_URL = 'https://silas7.com';
 const SITE_NAME = 'Silas Seve7n Holdings Corp';
-const DEFAULT_TITLE = 'Silas Seve7n Holdings Corp — Engineering Reliability, Fueling the Future';
+const DEFAULT_TITLE = 'Silas Seve7n Holdings Corp — Connecting Critical Resources. Powering the Future';
 const DEFAULT_DESCRIPTION =
-  'Silas Seve7n Holdings Corp (SSHC) — Engineering Reliability, Fueling the Future. Expert in advanced chemical solutions, precision metalworking, and power transformer components. ASME & ASTM Certified.';
+  'Silas Seve7n Holdings Corp (SSHC) — Connecting Critical Resources. Powering the Future. U.S. company connecting qualified Venezuelan producers of critical minerals and rare earths with U.S. manufacturers through secure, transparent, and compliant supply chains.';
 const OG_IMAGE = '/Images/Logo-recortado.png';
 
 export const metadata: Metadata = {

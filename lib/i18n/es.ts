@@ -16,14 +16,13 @@ export const es: Record<TranslationKey, string> = {
 
   /* Footer */
   'footer.desc':
-    'Socio estratégico para los sectores industrial y energético. Expertos en soluciones químicas avanzadas, metalmecánica de precisión y componentes para transformadores de potencia. Certificados ASME y ASTM.',
+    'Empresa estadounidense que conecta a productores venezolanos calificados de minerales críticos con la industria de EE. UU. mediante cadenas de suministro seguras, transparentes y conformes a la normativa.',
   'footer.nav-heading': 'Navegación',
   'footer.svc-heading': 'Servicios',
   'footer.contact-heading': 'Contacto',
   'footer.svc.minerals': 'Minerales Críticos',
-  'footer.svc.metal': 'Metalmecánica',
-  'footer.svc.chem': 'Tratamiento Químico',
-  'footer.svc.elec': 'Transformadores de Potencia',
+  'footer.svc.chain': 'Cadena de Valor',
+  'footer.svc.compliance': 'Cumplimiento',
   'footer.copyright':
     '&copy; 2025 &mdash; Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. Todos los derechos reservados.',
 
@@ -32,69 +31,65 @@ export const es: Record<TranslationKey, string> = {
     'Silas Seve7n Holdings Corp. conecta a productores venezolanos calificados de minerales críticos, con fabricantes y usuarios finales en Estados Unidos. Desarrollamos cadenas de suministro seguras, transparentes y conformes a la normativa para materiales esenciales en la industria estadounidense.',
   'hero.btn-services': 'Ver Servicios',
   'hero.btn-proposal': 'Solicitar Propuesta',
-  'hero.cert1-badge': 'Certificación Internacional',
-  'hero.cert1-title': 'Normas ASME &amp; ASTM',
+  'hero.cert1-badge':
+    'Cumplimiento en EE. UU.',
+  'hero.cert1-title':
+    'OFAC, FCPA y Aduanas',
   'hero.cert1-desc':
-    'Soluciones de ingeniería y fabricación bajo los estándares internacionales más exigentes para calderas, recipientes a presión y materiales industriales.',
+    'Cada transacción se estructura en total conformidad con las normativas de EE. UU., la ley anticorrupción y los requisitos de transparencia de la cadena de suministro.',
   'hero.cert2-badge': 'Operaciones Globales',
   'hero.cert2-title': 'Casper, Wyoming &mdash; EE. UU.',
   'hero.cert2-desc':
-    'Con sede en Estados Unidos, atendemos clientes industriales y energéticos en mercados internacionales con precisión técnica.',
+    'Con sede en Estados Unidos, conectando a productores minerales venezolanos con fabricantes y usuarios finales estadounidenses.',
   'hero.cert3-badge': 'Contáctenos',
   'hero.cert3-title': 'info@silas7.com',
   'hero.cert3-desc':
-    'Respondemos consultas técnicas en menos de 24 horas hábiles. Nuestro equipo especializado está disponible para asesorarle en cualquier proyecto.',
+    'Respondemos consultas dentro de las 24 horas hábiles. Nuestro equipo está disponible para atender sus necesidades de suministro de minerales críticos.',
 
   /* Index — Services section */
   'idx-svc.label': 'Lo Que Hacemos',
-  'idx-svc.title': 'Nuestros Servicios',
+  'idx-svc.title':
+    'Nuestro Servicio Principal',
   'idx-svc.desc':
-    'Un equipo técnico altamente calificado, preparado para liderar el suministro y transporte de minerales críticos y tierras raras, además de diseñar, ejecutar y supervisar soluciones integrales en metalmecánica, tratamiento químico e infraestructura eléctrica.',
-  'idx-svc.minerals.badge': 'Servicio Principal',
+    'Suministro y transporte de minerales críticos y elementos de tierras raras &mdash; desde productores venezolanos verificados hasta fabricantes y usuarios finales en EE. UU.',
+  'idx-svc.minerals.badge':
+    'Coltán &middot; Tantalio &middot; Niobio',
   'idx-svc.minerals.title': 'Minerales Críticos y Tierras Raras',
   'idx-svc.minerals.desc':
     'Suministro integral y logística de exportación de minerales críticos y elementos de tierras raras, conectando productores certificados con compradores industriales y fundiciones a nivel global.',
   'idx-svc.minerals.link': 'Ver detalles',
-  'idx-svc.chem.title': 'Servicios de Proceso Químico',
-  'idx-svc.chem.desc':
-    'Tratamientos upstream/downstream, sistemas de inyección automatizada, programas de agua de calderas, biocidas e inhibidores para aguas de proceso.',
-  'idx-svc.chem.link': 'Ver detalles',
-  'idx-svc.metal.title': 'Metalmecánica y Tratamiento Químico',
-  'idx-svc.metal.desc':
-    'Instalación de calderas, fabricación de intercambiadores de calor, servicios de re-tubado, quemadores e instrumentación industrial bajo normas ASME y ASTM.',
-  'idx-svc.metal.link': 'Ver detalles',
-  'idx-svc.elec.title': 'Transformadores y Eléctrico',
-  'idx-svc.elec.desc':
-    'Suministro de componentes para transformadores: bushings, relés Buchholz, ventiladores de enfriamiento, sistemas de aislamiento y aceites eléctricos especializados.',
-  'idx-svc.elec.link': 'Ver detalles',
 
   /* Index — About teaser */
   'about.label': 'Quiénes Somos',
-  'about.title': 'Comprometidos con la <span style="color:var(--red);">Excelencia en Ingeniería</span>',
+  'about.title':
+    'Un Puente Confiable para los <span style="color:var(--red);">Minerales Críticos</span>',
   'about.lead':
-    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp es una empresa industrial con sede en EE. UU. que ofrece soluciones químicas de alto rendimiento, servicios de ingeniería especializados y componentes eléctricos críticos a clientes en los sectores energético e industrial a nivel global.',
-  'about.hl1-title': 'Normas ASME &amp; ASTM',
+    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. es una empresa estadounidense con sede en Casper, Wyoming, que conecta a productores venezolanos calificados de tantalio, niobio, estaño, elementos de tierras raras y otros recursos críticos con fabricantes y usuarios finales en Estados Unidos.',
+  'about.hl1-title':
+    'Alianzas Estratégicas en Minerales Críticos',
   'about.hl1-desc':
-    'Soluciones de ingeniería y fabricación que cumplen con las normas internacionales para calderas, recipientes a presión y materiales.',
-  'about.hl2-title': 'Tratamiento Integral de Aguas y Fluidos',
+    'Identificamos y estructuramos oportunidades entre productores calificados y compradores y fabricantes establecidos en EE. UU.',
+  'about.hl2-title':
+    'Cadenas de Suministro Seguras y Conformes',
   'about.hl2-desc':
-    'Proveedor global de programas de tratamiento de agua y fluidos de proceso diseñados para maximizar la vida útil de los activos.',
-  'about.hl3-title': 'Soluciones de Infraestructura Eléctrica',
+    'Transparencia, abastecimiento responsable y pleno cumplimiento de las leyes de EE. UU. aplicables y de los requisitos de la OFAC.',
+  'about.hl3-title':
+    'Logística Integral',
   'about.hl3-desc':
-    'Suministro de componentes críticos para transformadores y aceites eléctricos especializados para empresas de servicios e industrias a nivel mundial.',
+    'Del origen a la entrega: estructuración de contratos, coordinación de exportación y envío a la industria estadounidense.',
   'about.btn': 'Conócenos Más',
 
   /* Index — CTA */
   'cta.index.title': '¿Listo para Iniciar su Proyecto?',
   'cta.index.desc':
-    'Nuestro equipo técnico especializado está disponible para asesorarle y brindarle una propuesta integral adaptada a sus requerimientos operativos.',
+    'Nuestro equipo está listo para conversar sobre sus requerimientos de suministro de minerales críticos y ofrecerle una propuesta a su medida.',
   'cta.btn-proposal': 'Solicitar Propuesta',
 
   /* Nosotros — Page header */
   'nos.breadcrumb': 'Quiénes Somos',
   'nos.ph-title': '<span style="color:var(--blue);">Quiénes</span> Somos',
   'nos.ph-desc':
-    'Una empresa con sede en EE. UU. comprometida con la excelencia en ingeniería, la continuidad operativa y los estándares internacionales de calidad.',
+    'Una empresa estadounidense que construye cadenas de suministro de minerales críticos seguras, transparentes y conformes entre Venezuela y la industria de EE. UU.',
 
   /* Nosotros — About intro */
   'nos.history-label': 'Nuestra Empresa',
@@ -133,25 +128,10 @@ export const es: Record<TranslationKey, string> = {
   'why.w4-title': 'Alianza entre Dos Naciones',
   'why.w4-desc': 'Una empresa estadounidense que trabaja de la mano con productores venezolanos, combinando estándares estadounidenses con experiencia regional.',
 
-  /* Certifications (shared: index + nosotros) */
-  'cert.label': 'Garantía de Calidad',
-  'cert.title': 'Nuestras Certificaciones y Normas',
-  'cert.desc':
-    'Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp opera bajo los estándares internacionales más exigentes para garantizar calidad, seguridad y confiabilidad en cada proyecto.',
-  'cert.asme-name': 'ASME',
-  'cert.asme-desc':
-    'Norma de fabricación de calderas y recipientes a presión — garantizando la mayor seguridad en sistemas térmicos.',
-  'cert.astm-name': 'ASTM',
-  'cert.astm-desc': 'Normas de materiales y fabricación para metalmecánica de precisión e integridad estructural.',
-  'cert.cov-name': 'COVENIN',
-  'cert.cov-desc': 'Normas de calidad e inspección industrial para operaciones de proceso y manufactura.',
-  'cert.fon-name': 'FONDONORMA',
-  'cert.fon-desc': 'Certificación de normalización y calidad — RIF J-508213858.',
-
   /* Nosotros — CTA */
   'cta.nos.title': '¿Listo para Trabajar con Nosotros?',
   'cta.nos.desc':
-    'Contáctenos y descubra cómo podemos optimizar sus operaciones industriales con soluciones personalizadas y conformes a las normas internacionales.',
+    'Contacte a nuestro equipo y descubra cómo podemos respaldar su cadena de suministro de minerales críticos.',
   'cta.nos.btn1': 'Contáctenos',
   'cta.nos.btn2': 'Ver Servicios',
 
@@ -159,16 +139,11 @@ export const es: Record<TranslationKey, string> = {
   'svc.breadcrumb': 'Servicios',
   'svc.ph-title': 'Nuestros <span style="color:var(--blue);">Servicios</span>',
   'svc.ph-desc':
-    'Soluciones de ingeniería integrales para los sectores industrial y energético, entregadas bajo los más altos estándares internacionales de calidad y seguridad.',
-
-  /* Servicios — Tabs */
-  'svc.tab.minerals': 'Minerales Críticos',
-  'svc.tab.metal': 'Metalmecánica',
-  'svc.tab.chem': 'Tratamiento Químico',
-  'svc.tab.elec': 'Transformadores de Potencia',
+    'Conectamos a productores venezolanos verificados de minerales críticos y tierras raras con la industria de EE. UU.',
 
   /* Servicios — Minerales Críticos y Tierras Raras (servicio principal) */
-  'svc.minerals.label': 'Sección 01',
+  'svc.minerals.label':
+    'Servicio Principal',
   'svc.minerals.title': 'Suministro y Transporte de Minerales Críticos y Tierras Raras',
   'svc.minerals.sub':
     'Cadena de suministro integral para minerales críticos y elementos de tierras raras — desde el origen hasta el comprador industrial, con trazabilidad y cumplimiento normativo en cada etapa.',
@@ -182,76 +157,10 @@ export const es: Record<TranslationKey, string> = {
   'svc.minerals.s3-desc':
     'Conexión con fundiciones, compradores industriales y comercializadores calificados que buscan volumen y calidad consistentes.',
 
-  /* Servicios — Metalworking */
-  'svc.metal.label': 'Sección 02',
-  'svc.metal.title': 'Servicios de Metalmecánica',
-  'svc.metal.sub':
-    'Fabricación, instalación y mantenimiento de precisión para equipos térmicos industriales de alta exigencia.',
-  'svc.metal.s1-title': 'Instalación de Calderas',
-  'svc.metal.s1-desc':
-    'Instalación y puesta en marcha completa de calderas pirotubulares y acuatubulares, incluyendo alineación, conexiones de tuberías, controles y sistemas de seguridad.',
-  'svc.metal.s2-title': 'Fabricación de Intercambiadores de Calor',
-  'svc.metal.s2-desc':
-    'Diseño y fabricación de intercambiadores de calor de carcasa y tubo y enfriadores fin fan bajo especificaciones ASME y ASTM para aplicaciones en refinerías y procesos.',
-  'svc.metal.s3-title': 'Quemadores y Combustión',
-  'svc.metal.s3-desc':
-    'Suministro, instalación y puesta en marcha de sistemas de quemadores industriales y gestión de la combustión para equipos térmicos de proceso.',
-  'svc.metal.s4-title': 'Instrumentación Industrial',
-  'svc.metal.s4-desc':
-    'Especificación, suministro e integración de instrumentación de proceso para sistemas de calderas, intercambiadores de calor y control de procesos térmicos.',
-  'svc.metal.s5-title': 'Re-tubado Carcasa-Tubo / Fin Fan',
-  'svc.metal.s5-desc':
-    'Servicios completos de re-tubado para intercambiadores de calor de carcasa y tubo y enfriadores fin fan, restaurando el rendimiento térmico completo y prolongando la vida útil.',
-  'svc.metal.s6-title': 'Re-tubado de Calderas',
-  'svc.metal.s6-desc':
-    'Servicios expertos de re-tubado para calderas pirotubulares y acuatubulares, cumpliendo con las normas ASME para soldadura, inspección y pruebas de presión.',
-
-  /* Servicios — Chemical */
-  'svc.chem.label': 'Sección 03',
-  'svc.chem.title': 'Servicios Químicos y Metalmecánicos',
-  'svc.chem.sub':
-    'Formulaciones químicas propias &mdash; demulsificantes, inhibidores de corrosión, anti-incrustantes y programas de tratamiento de agua &mdash; probadas en campo durante más de 14 años en refinerías venezolanas e internacionales, para aplicaciones upstream, downstream, de calderas y aguas de proceso.',
-  'svc.chem.s1-title': 'Suministro y Aplicación',
-  'svc.chem.s1-desc':
-    'Suministro y aplicación de tratamientos para corrientes de crudo y refinación, incluyendo sistemas de inyección automatizados para dosificación continua y confiable en operaciones de producción y refinación.',
-  'svc.chem.s2-title': 'Upstream y Downstream',
-  'svc.chem.s2-desc':
-    'Demulsificantes, antiespumantes, dispersantes de asfaltenos, agentes anti-incrustantes y formulaciones de limpieza de pozos para corrientes de proceso de hidrocarburos upstream y downstream.',
-  'svc.chem.s3-title': 'Tratamiento de Agua de Calderas',
-  'svc.chem.s3-desc':
-    'Secuestradores de oxígeno, inhibidores de corrosión, tratamientos de condensado de vapor y servicios de limpieza química para mantener la eficiencia y extender la vida útil de los equipos generadores de vapor.',
-  'svc.chem.s4-title': 'Tratamiento de Aguas de Proceso',
-  'svc.chem.s4-desc':
-    'Biocidas, inhibidores de incrustaciones, biodispersantes, coagulantes y floculantes para torres de enfriamiento, circuitos de agua de proceso y gestión de efluentes industriales.',
-
-  /* Servicios — Electrical */
-  'svc.elec.label': 'Sección 04',
-  'svc.elec.title': 'Componentes para Transformadores de Potencia y Aceites Eléctricos',
-  'svc.elec.sub':
-    'Componentes críticos y fluidos especiales para operaciones y mantenimiento de transformadores de potencia.',
-  'svc.elec.s1-title': 'Bushings (Pasatapas)',
-  'svc.elec.s1-desc':
-    'Bushings de alto voltaje impregnados en aceite y con resina para transformadores de potencia, cumpliendo las normas IEC y ANSI/IEEE para rendimiento dieléctrico y confiabilidad.',
-  'svc.elec.s2-title': 'Relé Buchholz',
-  'svc.elec.s2-desc':
-    'Relés de protección para detección de gas y sobretensión en transformadores sumergidos en aceite, proporcionando advertencia temprana de fallos y protegiendo el equipo de daños catastróficos.',
-  'svc.elec.s3-title': 'Sistemas de Control y Monitoreo',
-  'svc.elec.s3-desc':
-    'Sistemas de control compatibles con SCADA con imágenes térmicas, gestión de carga y capacidades de monitoreo remoto para la protección de transformadores y eficiencia operativa.',
-  'svc.elec.s4-title': 'Ventiladores de Enfriamiento',
-  'svc.elec.s4-desc':
-    'Conjuntos de ventiladores de enfriamiento de aire forzado y sistemas de enfriamiento ONAN/ONAF diseñados para mantener temperaturas de operación óptimas del transformador bajo condiciones de carga variable.',
-  'svc.elec.s5-title': 'Aislamiento para Transformadores',
-  'svc.elec.s5-desc':
-    'Papel Kraft, cartón, papel crepé y sistemas de aislamiento impregnados en líquido diseñados para la integridad dieléctrica a largo plazo en aplicaciones de transformadores de potencia.',
-  'svc.elec.s6-title': 'Aceites Eléctricos',
-  'svc.elec.s6-desc':
-    'Aceites minerales nafténicos, ésteres naturales y fluidos sintéticos que cumplen con las especificaciones IEC 60296 y ASTM D3487 para aislamiento y refrigeración de transformadores.',
-
   /* Servicios — CTA */
   'cta.svc.title': '¿Necesita Consultoría o Cotización?',
   'cta.svc.desc':
-    'Nuestro equipo de expertos está listo para proveer soluciones integrales adaptadas a sus requerimientos específicos de operación y mantenimiento.',
+    'Nuestro equipo está listo para preparar una propuesta a la medida de sus necesidades de suministro de minerales críticos y tierras raras.',
   'cta.svc.btn1': 'Contáctenos Hoy',
 
   /* Contacto — Page header */
@@ -272,7 +181,7 @@ export const es: Record<TranslationKey, string> = {
   'ctc.info-label': 'Escríbanos',
   'ctc.info-title': 'Estamos Listos<br>para Atenderle',
   'ctc.info-lead':
-    'Comuníquese directamente con nuestro equipo técnico especializado. Estamos disponibles para asesorarle y brindarle una propuesta integral adaptada a sus requerimientos operativos específicos.',
+    'Comuníquese directamente con nuestro equipo. Estamos disponibles para asesorarle y brindarle una propuesta integral adaptada a sus requerimientos de suministro de minerales críticos.',
   'ctc.card-addr-lbl': 'Sede Principal',
   'ctc.card-addr-val': 'E 2nd St, Ste 7000, Casper, WY',
   'ctc.card-email-lbl': 'Email',
@@ -320,23 +229,22 @@ export const es: Record<TranslationKey, string> = {
   'min.why-body': 'Estos minerales son insumos esenciales para la manufactura estadounidense de semiconductores, defensa, aeroespacial y vehículos eléctricos &mdash; sectores que hoy dependen de importaciones procesadas en China.',
 
   /* Home — quote */
-  'quote.text': 'Conectamos el mineral con la planta &mdash; combinando abastecimiento, estructuración, química y cumplimiento normativo bajo un mismo techo.',
+  'quote.text':
+    'Conectamos el mineral con la planta &mdash; combinando abastecimiento, estructuración, logística y cumplimiento normativo bajo un mismo techo.',
 
   /* Operations — value chain & compliance */
   'ops.chain-label': 'Cadena de Valor Integral',
   'ops.chain-title': 'De la Mina a la <span style="color:var(--red);">Manufactura en EE. UU.</span>',
-  'ops.chain-desc': 'Cinco etapas integradas que llevan los minerales críticos desde productores venezolanos verificados hasta la industria estadounidense.',
+  'ops.chain-desc':
+    'Cuatro etapas integradas que llevan los minerales críticos desde productores venezolanos verificados hasta la industria estadounidense.',
   'ops.step1-title': 'Origen',
   'ops.step1-desc': 'Productores venezolanos verificados de tierras raras o minerales como el coltán, el tantalio, el niobio, entre otros, así como sus derivados...',
   'ops.step2-title': 'Estructuración',
   'ops.step2-desc': 'Contratos de compra (offtake), precios, coberturas y documentación.',
-  'ops.step3-title': 'Soporte al Proceso',
-  'ops.step3-desc': 'Soporte químico y de ingeniería para la materia prima y su procesamiento.',
   'ops.step4-title': 'Exportación',
   'ops.step4-desc': 'Coordinación portuaria, transporte multimodal y aduanas.',
   'ops.step5-title': 'Entrega',
   'ops.step5-desc': 'Fundiciones, compradores industriales y fabricantes en EE. UU.',
-  'ops.chain-note': 'La experiencia química y de ingeniería de Silas Seve<span style="color:#bd0016;">7</span>n fortalece la calidad y la confiabilidad en las etapas de abastecimiento y procesamiento de la cadena.',
   'ops.comp-label': 'Cumplimiento y Estándares',
   'ops.comp-title': 'Plena Alineación con los <span style="color:var(--red);">Requisitos Federales de EE. UU.</span>',
   'ops.comp-intro': 'Cada transacción se estructura para operar en total conformidad con las normativas de EE. UU. administradas por la Oficina de Control de Activos Extranjeros (OFAC), las regulaciones aplicables de control de exportaciones y aduanas, la ley anticorrupción (FCPA) y los requisitos de transparencia de la cadena de suministro.',
@@ -344,8 +252,6 @@ export const es: Record<TranslationKey, string> = {
   'ops.c1-desc': 'Verificación y estructuración alineadas con las directrices vigentes de la OFAC.',
   'ops.c2-title': 'Comercio y Aduanas',
   'ops.c2-desc': 'Pleno cumplimiento de los procedimientos de importación, exportación y aduanas de EE. UU.',
-  'ops.c3-title': 'ASME / ASTM',
-  'ops.c3-desc': 'Normas de ingeniería y materiales para equipos y ensayos químicos.',
   'ops.c4-title': 'Anticorrupción',
   'ops.c4-desc': 'Debida diligencia y transparencia en cada relación con productores.',
 

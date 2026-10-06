@@ -64,18 +64,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/servicios#metalworking">
-                  <T k="footer.svc.metal" />
+                <Link href="/operaciones#value-chain">
+                  <T k="footer.svc.chain" />
                 </Link>
               </li>
               <li>
-                <Link href="/servicios#chemical">
-                  <T k="footer.svc.chem" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicios#electrical">
-                  <T k="footer.svc.elec" />
+                <Link href="/operaciones#compliance">
+                  <T k="footer.svc.compliance" />
                 </Link>
               </li>
             </ul>
@@ -107,7 +102,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <T as="p" k="footer.copyright" />
           <span className="footer-cert">
-            <span className="cert-dot">&#9679;</span> ASME &amp; ASTM Certified &nbsp;|&nbsp; EIN: 99-2086051
+            <span className="cert-dot">&#9679;</span> EIN: 99-2086051
           </span>
         </div>
       </div>

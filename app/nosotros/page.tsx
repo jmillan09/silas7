@@ -9,7 +9,7 @@ import AboutPhoto from '@/components/AboutPhoto';
 const TITLE = 'Nosotros';
 const FULL_TITLE = 'Nosotros — Silas Seve7n Holdings Corp';
 const DESCRIPTION =
-  'Nosotros — Silas Seve7n Holdings Corp (SSHC). Empresa con sede en EE. UU. comprometida con la excelencia en ingeniería industrial, soluciones químicas de alto rendimiento y componentes de potencia eléctrica. Certificada ASME y ASTM.';
+  'Nosotros — Silas Seve7n Holdings Corp (SSHC). Empresa estadounidense con sede en Casper, Wyoming, que conecta a productores venezolanos calificados de minerales críticos y tierras raras con fabricantes y usuarios finales en EE. UU.';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -167,35 +167,6 @@ export default function NosotrosPage() {
               </div>
               <T as="h4" k="why.w4-title" />
               <T as="p" k="why.w4-desc" />
-            </div>
-          </FadeUp>
-        </div>
-      </section>
-
-      {/* Certifications */}
-      <section className="certs-grid-section">
-        <div className="container">
-          <div className="section-header">
-            <T as="div" className="section-label" k="cert.label" />
-            <T as="h2" className="section-title on-light" k="cert.title" />
-            <T as="p" className="section-desc on-light" k="cert.desc" />
-          </div>
-          <FadeUp className="certs-grid">
-            <div className="cert-box">
-              <T as="div" className="cert-box-name" k="cert.asme-name" />
-              <T as="p" className="cert-box-desc" k="cert.asme-desc" />
-            </div>
-            <div className="cert-box">
-              <T as="div" className="cert-box-name" k="cert.astm-name" />
-              <T as="p" className="cert-box-desc" k="cert.astm-desc" />
-            </div>
-            <div className="cert-box">
-              <T as="div" className="cert-box-name" k="cert.cov-name" />
-              <T as="p" className="cert-box-desc" k="cert.cov-desc" />
-            </div>
-            <div className="cert-box">
-              <T as="div" className="cert-box-name" k="cert.fon-name" />
-              <T as="p" className="cert-box-desc" k="cert.fon-desc" />
             </div>
           </FadeUp>
         </div>

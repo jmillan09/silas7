@@ -47,16 +47,6 @@ const STEPS = [
     ),
   },
   {
-    key: 'ops.step3',
-    icon: (
-      <svg {...iconProps}>
-        <path d="M9 3h6" />
-        <path d="M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3" />
-        <path d="M7 15h10" />
-      </svg>
-    ),
-  },
-  {
     key: 'ops.step4',
     icon: (
       <svg {...iconProps}>
@@ -95,15 +85,6 @@ const COMPLIANCE = [
       <svg {...iconProps}>
         <rect x={2} y={7} width={20} height={14} rx={2} />
         <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-      </svg>
-    ),
-  },
-  {
-    key: 'ops.c3',
-    icon: (
-      <svg {...iconProps}>
-        <path d="M9 11l3 3L22 4" />
-        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
       </svg>
     ),
   },
@@ -157,8 +138,6 @@ export default function OperacionesPage() {
               </FadeUp>
             ))}
           </div>
-
-          <T as="p" className="chain-note" k="ops.chain-note" />
         </div>
       </section>
 
@@ -180,7 +159,7 @@ export default function OperacionesPage() {
             <T as="p" k="ops.comp-intro" />
           </FadeUp>
 
-          <FadeUp className="diff-grid">
+          <FadeUp className="diff-grid diff-grid-3">
             {COMPLIANCE.map((item) => (
               <div className="diff-card" key={item.key}>
                 <div className="diff-card-icon">{item.icon}</div>

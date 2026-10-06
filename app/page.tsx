@@ -143,119 +143,36 @@ export default function HomePage() {
             <T as="p" className="section-desc on-dark" k="idx-svc.desc" />
           </div>
 
-          <div className="services-grid">
-            <FadeUp className="service-card">
-              <div
-                className="service-card-img"
-                style={{
-                  background: 'var(--navy)',
-                  backgroundImage: "url('/Images/mineria/web/maquinaria.jpg')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              >
-                <T as="span" className="service-card-badge" k="idx-svc.minerals.badge" />
+          <FadeUp className="service-card service-card-wide">
+            <div
+              className="service-card-img"
+              style={{
+                background: 'var(--navy)',
+                backgroundImage: "url('/Images/mineria/web/maquinaria.jpg')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              <T as="span" className="service-card-badge" k="idx-svc.minerals.badge" />
+            </div>
+            <div className="service-card-body">
+              <div className="service-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M6 3h12l4 6-10 13L2 9Z" />
+                  <path d="M11 3 8 9l4 13 4-13-3-6" />
+                  <path d="M2 9h20" />
+                </svg>
               </div>
-              <div className="service-card-body">
-                <div className="service-card-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M6 3h12l4 6-10 13L2 9Z" />
-                    <path d="M11 3 8 9l4 13 4-13-3-6" />
-                    <path d="M2 9h20" />
-                  </svg>
-                </div>
-                <T as="h3" k="idx-svc.minerals.title" />
-                <T as="p" k="idx-svc.minerals.desc" />
-                <Link href="/servicios#minerals" className="service-link">
-                  <T as="span" k="idx-svc.minerals.link" />
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </FadeUp>
-
-            <FadeUp className="service-card" delay={0.12}>
-              <div
-                className="service-card-img"
-                style={{
-                  background: 'var(--navy)',
-                  backgroundImage: "url('/Images/quimica/analisis-rapidos.jpg')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              />
-              <div className="service-card-body">
-                <div className="service-card-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v11a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V3M3 9a9 9 0 0 0 9 9" />
-                  </svg>
-                </div>
-                <T as="h3" k="idx-svc.chem.title" />
-                <T as="p" k="idx-svc.chem.desc" />
-                <Link href="/servicios#chemical" className="service-link">
-                  <T as="span" k="idx-svc.chem.link" />
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </FadeUp>
-
-            <FadeUp className="service-card" delay={0.18}>
-              <div
-                className="service-card-img"
-                style={{
-                  background: 'var(--navy-mid)',
-                  backgroundImage: "url('/Images/trabajadores/2.jpg')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              />
-              <div className="service-card-body">
-                <div className="service-card-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                  </svg>
-                </div>
-                <T as="h3" k="idx-svc.metal.title" />
-                <T as="p" k="idx-svc.metal.desc" />
-                <Link href="/servicios#metalworking" className="service-link">
-                  <T as="span" k="idx-svc.metal.link" />
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </FadeUp>
-
-            <FadeUp className="service-card" delay={0.24}>
-              <div
-                className="service-card-img"
-                style={{
-                  background: 'var(--dark-surface)',
-                  backgroundImage: "url('/Images/electricidad/1.jpg')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              />
-              <div className="service-card-body">
-                <div className="service-card-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                  </svg>
-                </div>
-                <T as="h3" k="idx-svc.elec.title" />
-                <T as="p" k="idx-svc.elec.desc" />
-                <Link href="/servicios#electrical" className="service-link">
-                  <T as="span" k="idx-svc.elec.link" />
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </FadeUp>
-          </div>
+              <T as="h3" k="idx-svc.minerals.title" />
+              <T as="p" k="idx-svc.minerals.desc" />
+              <Link href="/servicios#minerals" className="service-link">
+                <T as="span" k="idx-svc.minerals.link" />
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </FadeUp>
         </div>
       </section>
 
