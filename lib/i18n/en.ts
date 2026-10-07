@@ -202,7 +202,7 @@ export const en = {
   /* Home — opportunity */
   'opp.label': 'The Opportunity',
   'opp.title': 'Redirecting Critical Minerals <span style="color:var(--red);">Toward American Industry</span>',
-  'opp.body': 'A significant share of Venezuela&rsquo;s critical minerals &mdash; including coltan, tantalum, and niobium &mdash; is currently exported to China, where it is processed, assembled, and resold as finished Chinese product. Given Venezuela&rsquo;s geographic proximity to the United States and its substantial untapped mineral reserves, a direct, compliant commercial relationship between the two countries represents a strategic opportunity for U.S. industry.',
+  'opp.body': 'Venezuela’s critical mineral wealth offers an opportunity to build a new era of productive cooperation with the United States. By connecting Venezuela’s resources and production capacity with American investment, technology, and industrial expertise, both countries can create a secure and compliant supply chain that drives innovation, generates employment, and supports strategic industries—from advanced manufacturing and energy to aerospace and technology. This partnership has the potential to transform natural resources into sustainable growth and shared economic progress.',
   'opp.today-label': 'Today',
   'opp.today': 'Raw material flows to China for processing and re-commercialization.',
   'opp.tomorrow-label': 'Tomorrow',
@@ -255,6 +255,15 @@ export const en = {
 
   /* Servicios — minerals link */
   'svc.minerals.ops-link': 'See how we operate',
+
+  /* Home — compliance */
+  'comp.label': 'Business Integrity',
+  'comp.title': 'Compliance',
+  'comp.lead': 'Business integrity is a pillar of Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. We maintain internal policies for know-your-customer (KYC), counterparty review, and restricted-party list screening.',
+  'comp.body': 'Our procedures are designed to align every operation with applicable U.S. regulations and with the expectations of buyers, lenders, insurers, and institutional partners.',
+  'comp.card-title': 'Lists and Regulations (OFAC)',
+  'comp.card-body': 'We perform screening and controls aimed at compliance with the regulations administered by the U.S. Treasury&rsquo;s Office of Foreign Assets Control (OFAC), as applicable to our activities and counterparties, as part of our due diligence.',
+  'comp.link': 'See our compliance standards',
 } as const;
 
 export type TranslationKey = keyof typeof en;

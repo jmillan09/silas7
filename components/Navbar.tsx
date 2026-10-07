@@ -132,7 +132,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/contacto"
-              className={`nav-link btn-red${pathname === '/contacto' ? ' active' : ''}`}
+              className={`nav-link nav-cta${pathname === '/contacto' ? ' active' : ''}`}
               onClick={closeMenus}
             >
               <T k="nav.contact" />

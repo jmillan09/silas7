@@ -274,6 +274,43 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Compliance */}
+      <section className="compliance-home section" id="compliance">
+        <div className="container">
+          <div className="compliance-home-grid">
+            <FadeUp className="compliance-home-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.75} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="M9 12l2 2 4-4" />
+              </svg>
+            </FadeUp>
+
+            <FadeUp className="compliance-home-text" delay={0.1}>
+              <T as="div" className="section-label" k="comp.label" />
+              <T as="h2" k="comp.title" />
+              <T as="p" className="compliance-home-lead" k="comp.lead" />
+              <T as="p" k="comp.body" />
+              <Link href="/operaciones#compliance" className="compliance-home-link">
+                <T as="span" k="comp.link" />
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </FadeUp>
+
+            <FadeUp className="compliance-home-card" delay={0.2}>
+              <h4>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                <T k="comp.card-title" />
+              </h4>
+              <T as="p" k="comp.card-body" />
+            </FadeUp>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="cta-section">
         <div className="container">

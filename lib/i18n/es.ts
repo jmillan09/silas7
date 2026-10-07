@@ -204,7 +204,7 @@ export const es: Record<TranslationKey, string> = {
   /* Home — opportunity */
   'opp.label': 'La Oportunidad',
   'opp.title': 'Redirigiendo los Minerales Críticos <span style="color:var(--red);">Hacia la Industria Estadounidense</span>',
-  'opp.body': 'Una parte significativa de los minerales críticos de Venezuela &mdash; incluidos el coltán, el tantalio y el niobio &mdash; se exporta actualmente a China, donde se procesa, ensambla y revende como producto terminado chino. Dada la cercanía geográfica de Venezuela con Estados Unidos y sus importantes reservas minerales sin explotar, una relación comercial directa y conforme a la normativa entre ambos países representa una oportunidad estratégica para la industria estadounidense.',
+  'opp.body': 'La riqueza de Venezuela en minerales críticos ofrece una oportunidad para construir una nueva era de cooperación productiva con Estados Unidos. Al vincular los recursos y la capacidad de producción de Venezuela con la inversión, la tecnología y la experiencia industrial estadounidenses, ambos países pueden crear una cadena de suministro segura y que cumpla con las normativas, impulsando así la innovación, generando empleo y apoyando sectores estratégicos, desde la manufactura avanzada y la energía hasta la industria aeroespacial y la tecnología. Esta alianza tiene el potencial de transformar los recursos naturales en crecimiento sostenible y progreso económico compartido.',
   'opp.today-label': 'Hoy',
   'opp.today': 'La materia prima fluye hacia China para su procesamiento y recomercialización.',
   'opp.tomorrow-label': 'Mañana',
@@ -257,4 +257,13 @@ export const es: Record<TranslationKey, string> = {
 
   /* Servicios — minerals link */
   'svc.minerals.ops-link': 'Vea cómo operamos',
+
+  /* Home — compliance */
+  'comp.label': 'Integridad Empresarial',
+  'comp.title': 'Cumplimiento',
+  'comp.lead': 'La integridad empresarial es un pilar de Silas Seve<span style="color:#bd0016;">7</span>n Holdings Corp. Mantenemos políticas internas de conocimiento del cliente (KYC), revisión de contrapartes y verificación en listas de partes restringidas.',
+  'comp.body': 'Nuestros procedimientos están diseñados para alinear cada operación con las regulaciones aplicables de EE. UU. y con las expectativas de compradores, entidades financieras, aseguradoras y socios institucionales.',
+  'comp.card-title': 'Listas y Normativas (OFAC)',
+  'comp.card-body': 'Realizamos verificaciones y controles orientados al cumplimiento de las normativas administradas por la Oficina de Control de Activos Extranjeros (OFAC) del Departamento del Tesoro de EE. UU., según apliquen a nuestras actividades y contrapartes, como parte de nuestra debida diligencia.',
+  'comp.link': 'Vea nuestros estándares de cumplimiento',
 };
