@@ -33,11 +33,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/gerencia">
-                  <T k="nav.management" />
-                </Link>
-              </li>
-              <li>
                 <Link href="/operaciones">
                   <T k="nav.operations" />
                 </Link>

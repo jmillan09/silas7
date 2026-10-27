@@ -9,7 +9,6 @@ export const en = {
   'nav.contact': 'Contact',
   'nav.company': 'Company',
   'nav.who': 'Who We Are',
-  'nav.management': 'Management',
   'nav.operations': 'Operations',
 
   /* Footer */
@@ -188,11 +187,6 @@ export const en = {
   'ctc.card-web-val': 'silas7.com',
   'ctc.response-title': 'Fast Response Guaranteed',
   'ctc.response-desc': 'Our team responds to technical inquiries within 24 business hours.',
-
-  /* Management page */
-  'mgmt.breadcrumb': 'Management',
-  'mgmt.ph-title': '<span style="color:var(--blue);">Management</span>',
-  'mgmt.ph-desc': 'Meet the leadership team guiding Silas Seve7n Holdings Corp.',
 
   /* Operations page */
   'ops.breadcrumb': 'Operations',

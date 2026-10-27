@@ -11,7 +11,6 @@ export const es: Record<TranslationKey, string> = {
   'nav.contact': 'Contacto',
   'nav.company': 'Empresa',
   'nav.who': 'Quiénes Somos',
-  'nav.management': 'Gerencia',
   'nav.operations': 'Operaciones',
 
   /* Footer */
@@ -190,11 +189,6 @@ export const es: Record<TranslationKey, string> = {
   'ctc.card-web-val': 'silas7.com',
   'ctc.response-title': 'Respuesta Garantizada en 24h',
   'ctc.response-desc': 'Nuestro equipo responde consultas técnicas dentro de las 24 horas hábiles.',
-
-  /* Management page */
-  'mgmt.breadcrumb': 'Gerencia',
-  'mgmt.ph-title': '<span style="color:var(--blue);">Gerencia</span>',
-  'mgmt.ph-desc': 'Conozca al equipo directivo que guía a Silas Seve7n Holdings Corp.',
 
   /* Operations page */
   'ops.breadcrumb': 'Operaciones',

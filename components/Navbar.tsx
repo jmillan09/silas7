@@ -8,7 +8,6 @@ import T from './T';
 
 const COMPANY_LINKS = [
   { href: '/nosotros', key: 'nav.who' as const },
-  { href: '/gerencia', key: 'nav.management' as const },
 ];
 
 const NAV_LINKS = [
